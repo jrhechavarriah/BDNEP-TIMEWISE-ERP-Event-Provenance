@@ -1,6 +1,6 @@
 # BDNEP-TIMEWISE â€” Reproducible ERP event-marker provenance analysis
 
-Version **1.0.0**. Software author: **Jesus Rafael Hechavarria-Hernandez** (ORCID 0000-0002-9013-8665).
+Version **1.0.1**. Software author: **Jesus Rafael Hechavarria-Hernandez** (ORCID 0000-0002-9013-8665).
 Software DOI (reserved until Zenodo publication): **10.5281/zenodo.23567028**.
 
 ## Overview
@@ -30,6 +30,6 @@ EEG and OSF event-source bytes are **NOT** redistributed in this repository. Dow
 Figures S2 (Face/Car behavioral eligibility) and S3 (descriptive unfiltered EEG anomalies) are identified in `supplementary/FIGURE_NUMBERING.md`.
 
 ## Reproducibility notes
-The `reference/` folder contains original, checksum-frozen historical protocol and cohort records, including *historical* administrative release-gate fields. Those values describe the original internal replay lock and are **not** an assertion about the authorization status of a later distribution. The recorded SHA-256 values must not be edited or reinterpreted. The historical administrative gate values document the frozen scientific replay and are not assertions about the authorization of this later software distribution.
+The public `reference/` directory contains scientific protocol, cohort, and source-provenance records for the reproducible distribution. Administrative release-gate fields from the historical internal workflow are excluded from the public package. The SHA-256 values in `SHA256SUMS.txt` describe this public release's byte-identical files; they do not replace the separately archived historical source and replay records.
 
 The `results/` directory contains the independently reproduced numerical outputs, not the original EEG source recordings. Public scientific reproducibility does not imply permission to redistribute upstream raw data. See `CITATION.cff` for the software citation and cite the original ERP CORE authors/data providers separately.
