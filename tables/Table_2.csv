@@ -1,0 +1,5 @@
+﻿Electrode / Arm,Original mean (µV),Corrected mean (µV),Corrected − original (µV),95% bootstrap CI (µV),Contrast sign reversals (n),Analysis role
+PO8 / A,-1.522537,-3.659009,-2.136471,"[-2.864001, -1.404426]",7,Primary
+PO8 / B,-1.455928,-3.616578,-2.160650,—,8,Descriptive
+PO7 / A,-1.579953,-3.230639,-1.650686,—,7,Descriptive
+PO7 / B,-1.484896,-3.120918,-1.636023,—,8,Descriptive

@@ -1,0 +1,10 @@
+﻿Measure,Value
+Participants,37
+Stimulus events (Arm A),11840
+Eligible events (Arm B),10810
+Ineligible stimulus events,1030
+Orphan response events,67
+CORRECT_BUT_RT_OUTSIDE_200_1000_MS,47
+INCORRECT_RESPONSE,876
+MULTIPLE_RESPONSES,7
+NO_RESPONSE,100

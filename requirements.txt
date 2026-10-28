@@ -1,0 +1,4 @@
+mne==1.11.0
+numpy==2.3.5
+scipy==1.17.0
+matplotlib>=3.7,<4

@@ -1,0 +1,2340 @@
+{
+  "schema": "iosa-timewise-source-contract-1.0",
+  "status": "PORTABLE_SOURCE_CONTRACT_STAGED_INTERNAL",
+  "created_utc": "2026-10-21T16:00:51.555761+00:00",
+  "cohort": [
+    "sub-004",
+    "sub-005",
+    "sub-006",
+    "sub-007",
+    "sub-008",
+    "sub-009",
+    "sub-010",
+    "sub-011",
+    "sub-012",
+    "sub-013",
+    "sub-014",
+    "sub-015",
+    "sub-016",
+    "sub-017",
+    "sub-018",
+    "sub-019",
+    "sub-020",
+    "sub-021",
+    "sub-022",
+    "sub-023",
+    "sub-024",
+    "sub-025",
+    "sub-026",
+    "sub-027",
+    "sub-028",
+    "sub-029",
+    "sub-030",
+    "sub-031",
+    "sub-032",
+    "sub-033",
+    "sub-034",
+    "sub-035",
+    "sub-036",
+    "sub-037",
+    "sub-038",
+    "sub-039",
+    "sub-040"
+  ],
+  "source_references": {
+    "nemar": {
+      "dataset": "nm000132",
+      "version": "v1.1.1",
+      "source_manifest_sha256": "0d8f05e49bef1c31f0103725a64c42fe38d664327fb44991228a34fc5394e4e7"
+    },
+    "osf": {
+      "project": "https://osf.io/thsqg/",
+      "n170_component": "pfde9"
+    },
+    "author_code": {
+      "url": "https://github.com/lucklab/ERP_CORE",
+      "commit": "c18b43d70d791ca914d90410afe4ff06d6f7f429"
+    }
+  },
+  "file_count": 261,
+  "files": [
+    {
+      "provider": "nemar",
+      "path": "nemar/dataset_description.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/dataset_description.json",
+      "sha256": "6c5ad3b6ab1a21df92f6051becc2d6b446315dfa631fa9adb64e85c3d0afeb18",
+      "size_bytes": 893,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "58c680169d1f6cc500ac07a124bf3e8207add871"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/participants.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/participants.tsv",
+      "sha256": "047b681e6f6434403629c85fc04f9ceeb61a30a5e46ad80ca6d93df7ab1bf67b",
+      "size_bytes": 792,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "b49bd7c4c42feae9e71e0be6aa7d6f6c913eb8f4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-004/eeg/sub-004_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-004/eeg/sub-004_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-004/eeg/sub-004_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-004/eeg/sub-004_task-N170_eeg.fdt",
+      "sha256": "4bbd3b855fae9fbafbaabaa5c29353b8263b08ded4befd2f7f6915bc0feb5030",
+      "size_bytes": 85696512,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "4bbd3b855fae9fbafbaabaa5c29353b8263b08ded4befd2f7f6915bc0feb5030"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-004/eeg/sub-004_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-004/eeg/sub-004_task-N170_eeg.json",
+      "sha256": "5439efea5e6ec01620f3200a4131f37b42e247c2626364d461c1cb3d91a9637e",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "337ad47744f69bbbad7fca8a460c77ad99f7f191"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-004/eeg/sub-004_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-004/eeg/sub-004_task-N170_eeg.set",
+      "sha256": "bb13711125b0c1b9735890ca23b78c805e97c96cfec9ada4ef96264c4aae5ca2",
+      "size_bytes": 1614458,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "bb13711125b0c1b9735890ca23b78c805e97c96cfec9ada4ef96264c4aae5ca2"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-004/eeg/sub-004_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-004/eeg/sub-004_task-N170_events.tsv",
+      "sha256": "8c6cf80a8b406efc9c566242fbf82be6d849047fadf5b581f758e996e8bac902",
+      "size_bytes": 32483,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "7cb36739dabc3dfdc0bcd90df4a3639007419741"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-005/eeg/sub-005_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-005/eeg/sub-005_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-005/eeg/sub-005_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-005/eeg/sub-005_task-N170_eeg.fdt",
+      "sha256": "6f574b01b0c23353d85dcd947440df5af8fcf456996bd4faf6e706c10e89ecf1",
+      "size_bytes": 79613952,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "6f574b01b0c23353d85dcd947440df5af8fcf456996bd4faf6e706c10e89ecf1"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-005/eeg/sub-005_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-005/eeg/sub-005_task-N170_eeg.json",
+      "sha256": "1daeb2da9172ed63ab33bfa12148af1670d7d2c1079f4449016f5065aa31f2be",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "ae8cc829f0f74e36659a5fd3d50124b41a5941d2"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-005/eeg/sub-005_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-005/eeg/sub-005_task-N170_eeg.set",
+      "sha256": "94b0cd027e86339850000d6c8d97b376a1b3d89d869e4acb9714c1dee578a77c",
+      "size_bytes": 1495115,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "94b0cd027e86339850000d6c8d97b376a1b3d89d869e4acb9714c1dee578a77c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-005/eeg/sub-005_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-005/eeg/sub-005_task-N170_events.tsv",
+      "sha256": "8804a9d56068591f781421f444e9a7872e272cfd6e9a768d427f0fa777b77112",
+      "size_bytes": 32521,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "7271c1e456c36439ff819f599c23fe52193c245d"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-006/eeg/sub-006_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-006/eeg/sub-006_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-006/eeg/sub-006_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-006/eeg/sub-006_task-N170_eeg.fdt",
+      "sha256": "53847bd193cc4f45888e1c73080dd24e68935a72df4102edc644d6256c14e339",
+      "size_bytes": 69881856,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "53847bd193cc4f45888e1c73080dd24e68935a72df4102edc644d6256c14e339"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-006/eeg/sub-006_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-006/eeg/sub-006_task-N170_eeg.json",
+      "sha256": "01e38cd7f1822f24153d623163573a71105bd921bda012450b044b47f04b1944",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "cf34caa2457576506a2fc7985cc2f88b8adaad54"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-006/eeg/sub-006_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-006/eeg/sub-006_task-N170_eeg.set",
+      "sha256": "32cc1ab40cf6825c07356103e8a2d9498b208efb13c70254a3e50414045f04f3",
+      "size_bytes": 1305792,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "32cc1ab40cf6825c07356103e8a2d9498b208efb13c70254a3e50414045f04f3"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-006/eeg/sub-006_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-006/eeg/sub-006_task-N170_events.tsv",
+      "sha256": "6d914fc1e783a99de0124c4a08ca47574edf537b99f62018883cb719da0faab4",
+      "size_bytes": 32550,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "89fef1f1be1b2bdf8f3b730191e8cfee06a6834c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-007/eeg/sub-007_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-007/eeg/sub-007_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-007/eeg/sub-007_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-007/eeg/sub-007_task-N170_eeg.fdt",
+      "sha256": "f72e79a303298e9c473570ff07c69a9b619c2427bc0ae2feff9fd1e875d25687",
+      "size_bytes": 77856768,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "f72e79a303298e9c473570ff07c69a9b619c2427bc0ae2feff9fd1e875d25687"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-007/eeg/sub-007_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-007/eeg/sub-007_task-N170_eeg.json",
+      "sha256": "74b7b3c26bcb89d6f66d2e7e65276705a58a535ca67745cd3617f514dcc639db",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "c9440eb4ce19d1cd86b8c711a331ec2c339bc152"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-007/eeg/sub-007_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-007/eeg/sub-007_task-N170_eeg.set",
+      "sha256": "a28b35d10bfee72a7b5155becb440ef8af314fc7f6708a4c280fc772daadda57",
+      "size_bytes": 1460892,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "a28b35d10bfee72a7b5155becb440ef8af314fc7f6708a4c280fc772daadda57"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-007/eeg/sub-007_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-007/eeg/sub-007_task-N170_events.tsv",
+      "sha256": "6ce76c268d142743e19dc49dadb8c0939d7877372cd220a44fa836c909de8876",
+      "size_bytes": 32530,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6b8faab2564b9af0bb14973b62b4ab03b4200ec2"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-008/eeg/sub-008_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-008/eeg/sub-008_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-008/eeg/sub-008_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-008/eeg/sub-008_task-N170_eeg.fdt",
+      "sha256": "9b5868e20c1fb685c36c79e21787facc8891bc53ec69fa9fc5100202d510f832",
+      "size_bytes": 106242048,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "9b5868e20c1fb685c36c79e21787facc8891bc53ec69fa9fc5100202d510f832"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-008/eeg/sub-008_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-008/eeg/sub-008_task-N170_eeg.json",
+      "sha256": "55c21a764339d02e66f61d3bfbb78f9b6db3df4e2575bbdb7a0821a29225a2bf",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "c0364426bd31bcec688d7f05f77dc6648dc51aa8"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-008/eeg/sub-008_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-008/eeg/sub-008_task-N170_eeg.set",
+      "sha256": "8e3d7081f401f0b1bfc58ea0036721f03c77dedfb1b63ea7ea6609d12d9c427c",
+      "size_bytes": 2015926,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "8e3d7081f401f0b1bfc58ea0036721f03c77dedfb1b63ea7ea6609d12d9c427c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-008/eeg/sub-008_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-008/eeg/sub-008_task-N170_events.tsv",
+      "sha256": "72f70cacedd268b9f26e2109210aecb303702d695fca67958527998b2c21e205",
+      "size_bytes": 32536,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "5d10573edb2646af9994936aca0f7055062f6db5"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-009/eeg/sub-009_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-009/eeg/sub-009_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-009/eeg/sub-009_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-009/eeg/sub-009_task-N170_eeg.fdt",
+      "sha256": "750a09e17938911073bc47b007f6ebaccee9ace99cb51dbfe63a78673d656f4c",
+      "size_bytes": 73801728,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "750a09e17938911073bc47b007f6ebaccee9ace99cb51dbfe63a78673d656f4c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-009/eeg/sub-009_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-009/eeg/sub-009_task-N170_eeg.json",
+      "sha256": "752a11ba6576df14f5d372567256036ea42abea3633b759fa856af9309872069",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "308deb606363e6a170014cf463b647d368aea7da"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-009/eeg/sub-009_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-009/eeg/sub-009_task-N170_eeg.set",
+      "sha256": "56b5da2a7ba077e48c001d86846555b9005eaea413ccce3b3dc76940e2ccb4fe",
+      "size_bytes": 1381936,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "56b5da2a7ba077e48c001d86846555b9005eaea413ccce3b3dc76940e2ccb4fe"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-009/eeg/sub-009_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-009/eeg/sub-009_task-N170_events.tsv",
+      "sha256": "c9481d3cfbc07a26b14ce5e0cd7f35cda957592576daa4216a24a78cd3462718",
+      "size_bytes": 32549,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "1cd3440bf8fd21381cf0d7ba9c6b539780c53531"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-010/eeg/sub-010_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-010/eeg/sub-010_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-010/eeg/sub-010_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-010/eeg/sub-010_task-N170_eeg.fdt",
+      "sha256": "76b1646922d9c69aa6dbacab990d9a24e463bfcdafe0ee5b8c53ddba78251fd6",
+      "size_bytes": 73396224,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "76b1646922d9c69aa6dbacab990d9a24e463bfcdafe0ee5b8c53ddba78251fd6"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-010/eeg/sub-010_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-010/eeg/sub-010_task-N170_eeg.json",
+      "sha256": "029e26155e183afb47469155fede69b5603821ceb4727830c6ef5014bdf1f95f",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "7c9666dbbe1df63442319f7dda1410a3d5f6f533"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-010/eeg/sub-010_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-010/eeg/sub-010_task-N170_eeg.set",
+      "sha256": "0b5366e7d982e471e4aa87636671df4f14151889d3c253de74689a99273c838b",
+      "size_bytes": 1374930,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "0b5366e7d982e471e4aa87636671df4f14151889d3c253de74689a99273c838b"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-010/eeg/sub-010_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-010/eeg/sub-010_task-N170_events.tsv",
+      "sha256": "85e85373115260f80e8aa76273576672937bdd37bfc8bd348da8247cc3e2dab6",
+      "size_bytes": 32625,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3694bca4d11d56774b01bee70afcfa3eaeb08afa"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-011/eeg/sub-011_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-011/eeg/sub-011_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-011/eeg/sub-011_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-011/eeg/sub-011_task-N170_eeg.fdt",
+      "sha256": "2b076606f7fb550472384213c9774b989ad194a4e55fdd0552f0d56864143b60",
+      "size_bytes": 76910592,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "2b076606f7fb550472384213c9774b989ad194a4e55fdd0552f0d56864143b60"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-011/eeg/sub-011_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-011/eeg/sub-011_task-N170_eeg.json",
+      "sha256": "bc0f8558cf728d7c8429455d1dc855588b1b9639fe0f678531c7b53597d83bbd",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "def881191d72b324f47bb3799e594b735965cf1f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-011/eeg/sub-011_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-011/eeg/sub-011_task-N170_eeg.set",
+      "sha256": "62764db6efdf2730edb16689bdade16186e0fb578687bcd719745926a18c33be",
+      "size_bytes": 1442634,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "62764db6efdf2730edb16689bdade16186e0fb578687bcd719745926a18c33be"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-011/eeg/sub-011_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-011/eeg/sub-011_task-N170_events.tsv",
+      "sha256": "ced636c65b50c761b5216b008da54ca37112e97a6b6d5d7fde3081ad618788cc",
+      "size_bytes": 32598,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "e228513bd13ec622b7a1dd2681a9de0ede716246"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-012/eeg/sub-012_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-012/eeg/sub-012_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-012/eeg/sub-012_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-012/eeg/sub-012_task-N170_eeg.fdt",
+      "sha256": "09f2e206b1ccdfc046dab26d86c99000cecfaf856431b08aabedb7fe95623eaa",
+      "size_bytes": 70963200,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "09f2e206b1ccdfc046dab26d86c99000cecfaf856431b08aabedb7fe95623eaa"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-012/eeg/sub-012_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-012/eeg/sub-012_task-N170_eeg.json",
+      "sha256": "c2e86f55f654ef24e46c0d22cce61087080355080ed7bb57b6505f89c72a7140",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "cdafcb8e942574b7b911fbab9c62f8487e1ddf17"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-012/eeg/sub-012_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-012/eeg/sub-012_task-N170_eeg.set",
+      "sha256": "290353a4d2a94b6f8780a944aee09dcf6fd8d0b344b47341a23ae033f4d56fac",
+      "size_bytes": 1326651,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "290353a4d2a94b6f8780a944aee09dcf6fd8d0b344b47341a23ae033f4d56fac"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-012/eeg/sub-012_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-012/eeg/sub-012_task-N170_events.tsv",
+      "sha256": "a3b271d870f61d5d045fde16b5d381a8f3c29b15831c5f3e29b8fa0d9d19755b",
+      "size_bytes": 32589,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "10e2c6d595e10b56d6aa3e05d26ca111e850254e"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-013/eeg/sub-013_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-013/eeg/sub-013_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-013/eeg/sub-013_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-013/eeg/sub-013_task-N170_eeg.fdt",
+      "sha256": "71e8e36c9f93b6dcd20b611b5f85bbbb8dc4e2ad40ddd9c4bdf4b2798f162640",
+      "size_bytes": 79343616,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "71e8e36c9f93b6dcd20b611b5f85bbbb8dc4e2ad40ddd9c4bdf4b2798f162640"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-013/eeg/sub-013_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-013/eeg/sub-013_task-N170_eeg.json",
+      "sha256": "be9d4160ebbecd6a504a603119272d4c0690e919451758a2047111d2d5e51043",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "17dfe983f8deb5bd7662bd58ad750c23ccb0f855"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-013/eeg/sub-013_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-013/eeg/sub-013_task-N170_eeg.set",
+      "sha256": "cefc8f8659e0ee9c549ddedb01760abc060ecfec6da6e1164ff3da916a89c8fa",
+      "size_bytes": 1489543,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "cefc8f8659e0ee9c549ddedb01760abc060ecfec6da6e1164ff3da916a89c8fa"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-013/eeg/sub-013_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-013/eeg/sub-013_task-N170_events.tsv",
+      "sha256": "8d16e56838fd43bdd02e067ee3795c2db21b85af6fcb5acfca53e9bfad6d4004",
+      "size_bytes": 32550,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "58f961552ea374fce47df467dddd20aed93321d0"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-014/eeg/sub-014_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-014/eeg/sub-014_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-014/eeg/sub-014_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-014/eeg/sub-014_task-N170_eeg.fdt",
+      "sha256": "fda0fa6eb523af83c1760fb55e10201c31151100c587e2d3a7af82bc9e6b8cee",
+      "size_bytes": 74747904,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "fda0fa6eb523af83c1760fb55e10201c31151100c587e2d3a7af82bc9e6b8cee"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-014/eeg/sub-014_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-014/eeg/sub-014_task-N170_eeg.json",
+      "sha256": "8f62dec8747feee06360a797ebd691fc5f063d993eed62aaa4312e837eef2412",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3428d4014d6695d3e60988b877081781c9def7a4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-014/eeg/sub-014_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-014/eeg/sub-014_task-N170_eeg.set",
+      "sha256": "4c9e3746118a12d28b21b5ab612daded1a302a862eb010926282257f9bc7bee6",
+      "size_bytes": 1399440,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "4c9e3746118a12d28b21b5ab612daded1a302a862eb010926282257f9bc7bee6"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-014/eeg/sub-014_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-014/eeg/sub-014_task-N170_events.tsv",
+      "sha256": "b3c4ead65eea9729ea56174a922b0b7a5cfbed1c6739c25ad9246a7fe4e23765",
+      "size_bytes": 32553,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "8a77ef3053d2b3d469d5720fe2ac3f842da530ec"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-015/eeg/sub-015_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-015/eeg/sub-015_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-015/eeg/sub-015_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-015/eeg/sub-015_task-N170_eeg.fdt",
+      "sha256": "7a6b07498ad6e933abd2b06ceb319f31fe1bf08f118bb12f81e63f4ec670e1fa",
+      "size_bytes": 77856768,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "7a6b07498ad6e933abd2b06ceb319f31fe1bf08f118bb12f81e63f4ec670e1fa"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-015/eeg/sub-015_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-015/eeg/sub-015_task-N170_eeg.json",
+      "sha256": "74b7b3c26bcb89d6f66d2e7e65276705a58a535ca67745cd3617f514dcc639db",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "c9440eb4ce19d1cd86b8c711a331ec2c339bc152"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-015/eeg/sub-015_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-015/eeg/sub-015_task-N170_eeg.set",
+      "sha256": "92ba5ac7050e4c8896f6def353ea1e491704a8d3ab84dde3bbc17a763dbd2ac4",
+      "size_bytes": 1460858,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "92ba5ac7050e4c8896f6def353ea1e491704a8d3ab84dde3bbc17a763dbd2ac4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-015/eeg/sub-015_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-015/eeg/sub-015_task-N170_events.tsv",
+      "sha256": "81e9724066b7d732dcf7bdeb7416a801ea4e6a3dce1e9493de9ccc6f2a470afb",
+      "size_bytes": 32498,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "e9aaf9a654e0f664d6dd8b299ad03b2bd725af02"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-016/eeg/sub-016_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-016/eeg/sub-016_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-016/eeg/sub-016_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-016/eeg/sub-016_task-N170_eeg.fdt",
+      "sha256": "2ea7061f14f0f3a6e896e271aa9623f3c04896f6104ec052c16a57eef0b6eba7",
+      "size_bytes": 85291008,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "2ea7061f14f0f3a6e896e271aa9623f3c04896f6104ec052c16a57eef0b6eba7"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-016/eeg/sub-016_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-016/eeg/sub-016_task-N170_eeg.json",
+      "sha256": "96ae7fc2837a82af6700514c1440d162915290b01d9303066726d9f04b7036af",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "62c5d75f62c6a60c00933eb113e2289e66fd838c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-016/eeg/sub-016_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-016/eeg/sub-016_task-N170_eeg.set",
+      "sha256": "756fa96bfae966ce718becdb5c774d438f1f4e5062d52f0b67852cb11da71a4f",
+      "size_bytes": 1604939,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "756fa96bfae966ce718becdb5c774d438f1f4e5062d52f0b67852cb11da71a4f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-016/eeg/sub-016_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-016/eeg/sub-016_task-N170_events.tsv",
+      "sha256": "5d00a705764690d314422f21dc9234fdc0f7c080dae99de8022a98ed7e3186d1",
+      "size_bytes": 28502,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "5c0e582eb2d7e042d778eb81ef38185df09ce42f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-017/eeg/sub-017_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-017/eeg/sub-017_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-017/eeg/sub-017_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-017/eeg/sub-017_task-N170_eeg.fdt",
+      "sha256": "4e42ddd5786478b430584ee72bbc005ae73d8e2376593c1683e119e24e8d701a",
+      "size_bytes": 80424960,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "4e42ddd5786478b430584ee72bbc005ae73d8e2376593c1683e119e24e8d701a"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-017/eeg/sub-017_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-017/eeg/sub-017_task-N170_eeg.json",
+      "sha256": "2dfca3ca9838d12a367306727dda7dc8878e0fae7811dab1e094f9c66780f0ed",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "1492497c89ae96407b43917e42162ac3cbd5da12"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-017/eeg/sub-017_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-017/eeg/sub-017_task-N170_eeg.set",
+      "sha256": "bcfe4416df9be92e64bca876f9ff2a2a5c410f90b89e0388d9dbc8cab1854b3c",
+      "size_bytes": 1511205,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "bcfe4416df9be92e64bca876f9ff2a2a5c410f90b89e0388d9dbc8cab1854b3c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-017/eeg/sub-017_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-017/eeg/sub-017_task-N170_events.tsv",
+      "sha256": "9e70f29dcffd37fe7a8d6a5ed154b5c9773f979334961ef23ea296c6853f3d7e",
+      "size_bytes": 32520,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "fde6d788bb6a2b56501ecc6d83ea5091cb9ba210"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-018/eeg/sub-018_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-018/eeg/sub-018_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-018/eeg/sub-018_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-018/eeg/sub-018_task-N170_eeg.fdt",
+      "sha256": "a102112c553e84f555cb690a301d9e05b515645c69d3430c72061ed8676ba3d6",
+      "size_bytes": 82182144,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "a102112c553e84f555cb690a301d9e05b515645c69d3430c72061ed8676ba3d6"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-018/eeg/sub-018_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-018/eeg/sub-018_task-N170_eeg.json",
+      "sha256": "6c673f4f4366bd99ae4e3fc039b0622405021e66c87dc234f4679ff88d55ef17",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "0cf6ed4a4e4e6b19d4c772d71d98809001206ebc"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-018/eeg/sub-018_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-018/eeg/sub-018_task-N170_eeg.set",
+      "sha256": "a4264390296e0b15c4422c0d3b109fe3f6f331ee2e33735303196ad02bfa25c3",
+      "size_bytes": 1545918,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "a4264390296e0b15c4422c0d3b109fe3f6f331ee2e33735303196ad02bfa25c3"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-018/eeg/sub-018_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-018/eeg/sub-018_task-N170_events.tsv",
+      "sha256": "5e3ef1c01a9e21f303007f6afb6fcd8f475f256f659fff60ff017d804aac5cd1",
+      "size_bytes": 32577,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "d065f684cbc5b2050717e681140d04470c38d2da"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-019/eeg/sub-019_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-019/eeg/sub-019_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-019/eeg/sub-019_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-019/eeg/sub-019_task-N170_eeg.fdt",
+      "sha256": "2499ee001047a76651092a581dc0f34073bb200a66d9f8a0e043a27cc162dce7",
+      "size_bytes": 70692864,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "2499ee001047a76651092a581dc0f34073bb200a66d9f8a0e043a27cc162dce7"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-019/eeg/sub-019_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-019/eeg/sub-019_task-N170_eeg.json",
+      "sha256": "736eff2d92ffb4ab09935074e7e0de89c3c206327c850a26490d7566090cd241",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "8a59c1096c39fbfaad0a8ed9cc6685460451fba4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-019/eeg/sub-019_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-019/eeg/sub-019_task-N170_eeg.set",
+      "sha256": "30de49c5b36ab76cfffed921dab250f51a749c85266cbf46429db3bb10cddb8f",
+      "size_bytes": 1320990,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "30de49c5b36ab76cfffed921dab250f51a749c85266cbf46429db3bb10cddb8f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-019/eeg/sub-019_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-019/eeg/sub-019_task-N170_events.tsv",
+      "sha256": "80723e4ae911291abb0fc6220eddff25d7cad0393fcbcf08b96cd69774d17515",
+      "size_bytes": 32530,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "846141d4a63b7afcba0d53d6c89230491e004fbb"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-020/eeg/sub-020_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-020/eeg/sub-020_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-020/eeg/sub-020_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-020/eeg/sub-020_task-N170_eeg.fdt",
+      "sha256": "e8e8bd00f2e2b0983c3c57c330ed11479b62eed50a9d60acc4eec4dbec2f961e",
+      "size_bytes": 79073280,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "e8e8bd00f2e2b0983c3c57c330ed11479b62eed50a9d60acc4eec4dbec2f961e"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-020/eeg/sub-020_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-020/eeg/sub-020_task-N170_eeg.json",
+      "sha256": "333fb531c5c497f9fa612fb46d40feef59e82e977f3f27771ddfb72d14dcef42",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "edc4f549908f6f1506e1244efcedf0ea6bb3b730"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-020/eeg/sub-020_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-020/eeg/sub-020_task-N170_eeg.set",
+      "sha256": "577c280f1ef54c4cc10324642f7aa8a038f061735ad97ca93d7e7eaff8274455",
+      "size_bytes": 1483158,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "577c280f1ef54c4cc10324642f7aa8a038f061735ad97ca93d7e7eaff8274455"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-020/eeg/sub-020_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-020/eeg/sub-020_task-N170_events.tsv",
+      "sha256": "c64a5370e941dfcc991b645dbcf532ea8a80953eeb62ee8705551a1a7a843a30",
+      "size_bytes": 32553,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "7151431d6017d4fdd4dabbb5b291cbb46509b4ec"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-021/eeg/sub-021_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-021/eeg/sub-021_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-021/eeg/sub-021_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-021/eeg/sub-021_task-N170_eeg.fdt",
+      "sha256": "b8e622acda5a53635fa7c3717eb1ce0edf64b8aec6250763cc2c96b101033492",
+      "size_bytes": 75288576,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "b8e622acda5a53635fa7c3717eb1ce0edf64b8aec6250763cc2c96b101033492"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-021/eeg/sub-021_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-021/eeg/sub-021_task-N170_eeg.json",
+      "sha256": "02e0a60a82b57219a7eaaf4c9dbe1b287f49e9ee3ff62e5a5e51ef9d20c0a064",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "0a8b5b8f16a3f99f067f860d1cad9d7ad96966a9"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-021/eeg/sub-021_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-021/eeg/sub-021_task-N170_eeg.set",
+      "sha256": "1abd698a8e974082b83dbb9faa9f6e6049b6d5c348e3d0947ced313c11205e1a",
+      "size_bytes": 1411484,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "1abd698a8e974082b83dbb9faa9f6e6049b6d5c348e3d0947ced313c11205e1a"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-021/eeg/sub-021_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-021/eeg/sub-021_task-N170_events.tsv",
+      "sha256": "5b93469457d15abf24fb9c684a91fd357b4e910a816e9303a6df185aeee22134",
+      "size_bytes": 32590,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "e98754e50fb5bc829d2caf020ec6a6cd716a70d5"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-022/eeg/sub-022_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-022/eeg/sub-022_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-022/eeg/sub-022_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-022/eeg/sub-022_task-N170_eeg.fdt",
+      "sha256": "38616041b29c0e6ffa9dacfe2482176b912f0c58febd6a8f97e1a31e90bd7a14",
+      "size_bytes": 78127104,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "38616041b29c0e6ffa9dacfe2482176b912f0c58febd6a8f97e1a31e90bd7a14"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-022/eeg/sub-022_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-022/eeg/sub-022_task-N170_eeg.json",
+      "sha256": "2ef75fea89222af35905eb7a3ea1b26dfd6f7baac10a90014c62799757c65c19",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "c9ee5cfb7a0fc077aa369bae09eb868a1458f80f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-022/eeg/sub-022_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-022/eeg/sub-022_task-N170_eeg.set",
+      "sha256": "fbc5da537117525a895e629c509b4ec9bf5aef9e1554ae5d945ff5338bea63ad",
+      "size_bytes": 1465474,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "fbc5da537117525a895e629c509b4ec9bf5aef9e1554ae5d945ff5338bea63ad"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-022/eeg/sub-022_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-022/eeg/sub-022_task-N170_events.tsv",
+      "sha256": "44b9a639a50f22a7fa8d4d0a073ae704c3b22eeb01a13cf6bd3cf03ed9fd1c96",
+      "size_bytes": 32580,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "fa49d459d86ff015b3ae8e004929e343e969726e"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-023/eeg/sub-023_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-023/eeg/sub-023_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-023/eeg/sub-023_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-023/eeg/sub-023_task-N170_eeg.fdt",
+      "sha256": "00b8301937adcb97d427d156d8114825ef7259924b99dd592bc827f67517099c",
+      "size_bytes": 74477568,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "00b8301937adcb97d427d156d8114825ef7259924b99dd592bc827f67517099c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-023/eeg/sub-023_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-023/eeg/sub-023_task-N170_eeg.json",
+      "sha256": "634b513ea7113da92cfe343dc7e030606bab6e3364b63a2c40d0c2b0e652ec53",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "26fddf6d15ca99d121046e7859cfe78a6e0e1639"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-023/eeg/sub-023_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-023/eeg/sub-023_task-N170_eeg.set",
+      "sha256": "a2626ba230c8fb710dabb7c807f52ffd821bc11f3d31b9e702ff551d54fd0ce5",
+      "size_bytes": 1395485,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "a2626ba230c8fb710dabb7c807f52ffd821bc11f3d31b9e702ff551d54fd0ce5"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-023/eeg/sub-023_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-023/eeg/sub-023_task-N170_events.tsv",
+      "sha256": "353bafdd05c68938540406e3e9d82949e9fa7a7c30ee51e839d5e075932740b2",
+      "size_bytes": 32488,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "830a7df355442821de075ca567c8f8b48c1f2bdc"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-024/eeg/sub-024_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-024/eeg/sub-024_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-024/eeg/sub-024_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-024/eeg/sub-024_task-N170_eeg.fdt",
+      "sha256": "8e060f438187ea2bbad9084ef415f110bffb09927efa87ae265e9b3902bb0ba5",
+      "size_bytes": 76640256,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "8e060f438187ea2bbad9084ef415f110bffb09927efa87ae265e9b3902bb0ba5"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-024/eeg/sub-024_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-024/eeg/sub-024_task-N170_eeg.json",
+      "sha256": "25691f9cb6531b518d7f00504ae6aecfca214424d26fa5c08a4f4d574b936236",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "7d4abcfd37fef5ab1098d86d1716b619133ac3e4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-024/eeg/sub-024_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-024/eeg/sub-024_task-N170_eeg.set",
+      "sha256": "8b8714ac1d3adb1fa3c03a6a9acc69eb919616d7eb561b1b3c90d71e4af6e2ee",
+      "size_bytes": 1436763,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "8b8714ac1d3adb1fa3c03a6a9acc69eb919616d7eb561b1b3c90d71e4af6e2ee"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-024/eeg/sub-024_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-024/eeg/sub-024_task-N170_events.tsv",
+      "sha256": "c26b8feee2d61299873d7e762de0073b2d778ee56db15e57479ac85fcef67035",
+      "size_bytes": 32545,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3274a65dc43127532cf5fd15178d81f45d748480"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-025/eeg/sub-025_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-025/eeg/sub-025_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-025/eeg/sub-025_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-025/eeg/sub-025_task-N170_eeg.fdt",
+      "sha256": "84ac3fa2c332f298892c7f5b4c451bf9f29f42dd6b85d654f0dc76fa72f26267",
+      "size_bytes": 78127104,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "84ac3fa2c332f298892c7f5b4c451bf9f29f42dd6b85d654f0dc76fa72f26267"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-025/eeg/sub-025_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-025/eeg/sub-025_task-N170_eeg.json",
+      "sha256": "2ef75fea89222af35905eb7a3ea1b26dfd6f7baac10a90014c62799757c65c19",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "c9ee5cfb7a0fc077aa369bae09eb868a1458f80f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-025/eeg/sub-025_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-025/eeg/sub-025_task-N170_eeg.set",
+      "sha256": "78210d7069fc60d05bb0ad2f34d0276855051f81b0353fca597045f28e3d76f1",
+      "size_bytes": 1465379,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "78210d7069fc60d05bb0ad2f34d0276855051f81b0353fca597045f28e3d76f1"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-025/eeg/sub-025_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-025/eeg/sub-025_task-N170_events.tsv",
+      "sha256": "f7206ebcb24f25241e130bdca7aa6e6b991f6514d104e6bcfb0c878064e73d23",
+      "size_bytes": 32569,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4c3e87fb8fccf7756f97e7ed72f636be064cac23"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-026/eeg/sub-026_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-026/eeg/sub-026_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-026/eeg/sub-026_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-026/eeg/sub-026_task-N170_eeg.fdt",
+      "sha256": "8c83d74f3064fef247f1781ba31faac753dc82a8c763634a8d9e9e84998c6858",
+      "size_bytes": 75018240,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "8c83d74f3064fef247f1781ba31faac753dc82a8c763634a8d9e9e84998c6858"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-026/eeg/sub-026_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-026/eeg/sub-026_task-N170_eeg.json",
+      "sha256": "4df6464edae2a4b3978b6844c258ef08f305109454f6f760b9f0e0bc2079a228",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "8308924f82a3dc9440e00c05e273b7cbeb18d958"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-026/eeg/sub-026_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-026/eeg/sub-026_task-N170_eeg.set",
+      "sha256": "d976130d68f99418577f951670dceb6e8c2330af108274e17a6d3c911849ff77",
+      "size_bytes": 1405804,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "d976130d68f99418577f951670dceb6e8c2330af108274e17a6d3c911849ff77"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-026/eeg/sub-026_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-026/eeg/sub-026_task-N170_events.tsv",
+      "sha256": "e2028b3abafebaa9332a3293c7020992f26887ae551dd4e7b82d5570d726d50d",
+      "size_bytes": 32547,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "a9712a10f8236eff5947f2b4d68c555e9c17b63c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-027/eeg/sub-027_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-027/eeg/sub-027_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-027/eeg/sub-027_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-027/eeg/sub-027_task-N170_eeg.fdt",
+      "sha256": "53aff8d773bd8516fd5d570d4b5b048ccedf084090b7a8ecc95ade988ae25dc8",
+      "size_bytes": 76369920,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "53aff8d773bd8516fd5d570d4b5b048ccedf084090b7a8ecc95ade988ae25dc8"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-027/eeg/sub-027_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-027/eeg/sub-027_task-N170_eeg.json",
+      "sha256": "4bad73e2157f1d8b0bd8c21f99035c9f510e79bad819026729c5ba2b966c15f1",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6b28bbb4c18f3b08812d16c820b48e8e2586d150"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-027/eeg/sub-027_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-027/eeg/sub-027_task-N170_eeg.set",
+      "sha256": "9bc383b569afbeea89ebc9e7c8de85d84dbe5e7acb57aad6cb8498525c29a732",
+      "size_bytes": 1431757,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "9bc383b569afbeea89ebc9e7c8de85d84dbe5e7acb57aad6cb8498525c29a732"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-027/eeg/sub-027_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-027/eeg/sub-027_task-N170_events.tsv",
+      "sha256": "8ec074c26b966b52529f304b4ac4335085f3563ba5b6c841db67da9c4fd02efd",
+      "size_bytes": 32599,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "137c439ddc905772abeb23db9f259b0a0fa40a36"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-028/eeg/sub-028_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-028/eeg/sub-028_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-028/eeg/sub-028_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-028/eeg/sub-028_task-N170_eeg.fdt",
+      "sha256": "eef035c2838769c0a3806a6db2999ae603846daab5df9eb0bc4639b21b1b5c82",
+      "size_bytes": 75558912,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "eef035c2838769c0a3806a6db2999ae603846daab5df9eb0bc4639b21b1b5c82"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-028/eeg/sub-028_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-028/eeg/sub-028_task-N170_eeg.json",
+      "sha256": "08272ad832509e709e69415b5e20db51e63dc48f110004aa4cbf884618d3f61c",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "20e3e6f04bcb2c079a6820fed6d56ea610fdc777"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-028/eeg/sub-028_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-028/eeg/sub-028_task-N170_eeg.set",
+      "sha256": "a26202552a7eaa54b4005e9320f00cb4f09e4cd565d64fd48dbcb3eb065ab29b",
+      "size_bytes": 1415676,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "a26202552a7eaa54b4005e9320f00cb4f09e4cd565d64fd48dbcb3eb065ab29b"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-028/eeg/sub-028_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-028/eeg/sub-028_task-N170_events.tsv",
+      "sha256": "eabf1af262fc1bd4f71ab124289cad06c0a70cbe55de43646477ede27f7397d4",
+      "size_bytes": 32435,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "41a515c610bdb399717fa8721a3aa54e40341739"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-029/eeg/sub-029_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-029/eeg/sub-029_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-029/eeg/sub-029_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-029/eeg/sub-029_task-N170_eeg.fdt",
+      "sha256": "2b43cf82042f7d22015f51f19aa3b87600848276dda2a4e1474ab41024cd07fc",
+      "size_bytes": 79749120,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "2b43cf82042f7d22015f51f19aa3b87600848276dda2a4e1474ab41024cd07fc"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-029/eeg/sub-029_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-029/eeg/sub-029_task-N170_eeg.json",
+      "sha256": "abab40f09bce35a46e5de2793e059e8d0532a3ba50471b488b15fa021e6dd7a2",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6a7448334e80988a587a9ab776327e6cd74b78c9"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-029/eeg/sub-029_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-029/eeg/sub-029_task-N170_eeg.set",
+      "sha256": "f518f17b75fb63db85718d119e468b271aa9e757999e0aab0cc52ec023b72ddf",
+      "size_bytes": 1497404,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "f518f17b75fb63db85718d119e468b271aa9e757999e0aab0cc52ec023b72ddf"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-029/eeg/sub-029_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-029/eeg/sub-029_task-N170_events.tsv",
+      "sha256": "1ec78614de91bd12585635a6d1d387156b30e7bb22aaf780c585a376b2942cbc",
+      "size_bytes": 32414,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "fb08e9e7206e088f5ecb711673b38850f58078e0"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-030/eeg/sub-030_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-030/eeg/sub-030_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-030/eeg/sub-030_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-030/eeg/sub-030_task-N170_eeg.fdt",
+      "sha256": "562af9cc453d1e4a0c0241974329650a74c5d29c3c822d18f17abee6501294e3",
+      "size_bytes": 75829248,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "562af9cc453d1e4a0c0241974329650a74c5d29c3c822d18f17abee6501294e3"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-030/eeg/sub-030_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-030/eeg/sub-030_task-N170_eeg.json",
+      "sha256": "493be5445251d5df686c73fc697101c68b968889f8fd944fdf035e30fcfc3818",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "a6579f029c2a051c97038543757cc8105d75f405"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-030/eeg/sub-030_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-030/eeg/sub-030_task-N170_eeg.set",
+      "sha256": "7d7bb194fb26c18f5e2ff27fbac86b8fa490adafcbba157ff61b26acdeae179a",
+      "size_bytes": 1421351,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "7d7bb194fb26c18f5e2ff27fbac86b8fa490adafcbba157ff61b26acdeae179a"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-030/eeg/sub-030_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-030/eeg/sub-030_task-N170_events.tsv",
+      "sha256": "30b875f49af6749e24419b7ae985c14e9d32ee719e2c3701e99e0322ca99f473",
+      "size_bytes": 32608,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6be6daf4a4822fe88947bb1e215d6266a546e726"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-031/eeg/sub-031_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-031/eeg/sub-031_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-031/eeg/sub-031_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-031/eeg/sub-031_task-N170_eeg.fdt",
+      "sha256": "b10f15e3c4f088c44ad4c9ab066e2aca99410f9277d0f37e27b21ef740995912",
+      "size_bytes": 76099584,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "b10f15e3c4f088c44ad4c9ab066e2aca99410f9277d0f37e27b21ef740995912"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-031/eeg/sub-031_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-031/eeg/sub-031_task-N170_eeg.json",
+      "sha256": "1e5d9261d73a5e247d1a195233732c3c32577feb50953c816e4f234d5537e949",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3920f600b6cd3809170658b6dd743b9d3d446c4c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-031/eeg/sub-031_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-031/eeg/sub-031_task-N170_eeg.set",
+      "sha256": "d6d4668af9b094bc5942ff2aa1263289d42e5b3cf3d8c602a2c959621aa7a026",
+      "size_bytes": 1427081,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "d6d4668af9b094bc5942ff2aa1263289d42e5b3cf3d8c602a2c959621aa7a026"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-031/eeg/sub-031_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-031/eeg/sub-031_task-N170_events.tsv",
+      "sha256": "88ebb45ffa4e23d2aade78ff8a9f465e638c612322e657ee05b02f7b0770e76d",
+      "size_bytes": 32571,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "ad36a8e4bf30e76fc52233d944068f01afee0800"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-032/eeg/sub-032_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-032/eeg/sub-032_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-032/eeg/sub-032_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-032/eeg/sub-032_task-N170_eeg.fdt",
+      "sha256": "b844bad4895603c0fd2f4d5f86f289153217b6f0b318ec2b48f07b3af47e18e3",
+      "size_bytes": 76369920,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "b844bad4895603c0fd2f4d5f86f289153217b6f0b318ec2b48f07b3af47e18e3"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-032/eeg/sub-032_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-032/eeg/sub-032_task-N170_eeg.json",
+      "sha256": "4bad73e2157f1d8b0bd8c21f99035c9f510e79bad819026729c5ba2b966c15f1",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6b28bbb4c18f3b08812d16c820b48e8e2586d150"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-032/eeg/sub-032_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-032/eeg/sub-032_task-N170_eeg.set",
+      "sha256": "2acdbcd150d9922b7bbbda5f0c3c907f609367323a31a6afb2d3821e32caa81e",
+      "size_bytes": 1431596,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "2acdbcd150d9922b7bbbda5f0c3c907f609367323a31a6afb2d3821e32caa81e"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-032/eeg/sub-032_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-032/eeg/sub-032_task-N170_events.tsv",
+      "sha256": "35c351767200640dc65789754a8185bc801ac46e1aa62ba7baf4c18687d25175",
+      "size_bytes": 32374,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "ede1560af8609357e84a38d31597773e8138a8f7"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-033/eeg/sub-033_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-033/eeg/sub-033_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-033/eeg/sub-033_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-033/eeg/sub-033_task-N170_eeg.fdt",
+      "sha256": "f0f75164e62dd09135283936375d0a0701a8f60e2e9a06619cca810723f75fbf",
+      "size_bytes": 75288576,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "f0f75164e62dd09135283936375d0a0701a8f60e2e9a06619cca810723f75fbf"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-033/eeg/sub-033_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-033/eeg/sub-033_task-N170_eeg.json",
+      "sha256": "02e0a60a82b57219a7eaaf4c9dbe1b287f49e9ee3ff62e5a5e51ef9d20c0a064",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "0a8b5b8f16a3f99f067f860d1cad9d7ad96966a9"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-033/eeg/sub-033_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-033/eeg/sub-033_task-N170_eeg.set",
+      "sha256": "dd89ecb4b1f74455e3d2001bb4853ec91a78ad5b98967409a51497299b21860f",
+      "size_bytes": 1411268,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "dd89ecb4b1f74455e3d2001bb4853ec91a78ad5b98967409a51497299b21860f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-033/eeg/sub-033_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-033/eeg/sub-033_task-N170_events.tsv",
+      "sha256": "fcf6104797fd178cdc6358d0c9361b0e3f1a3fbe405ea73420b8a1a373e2d372",
+      "size_bytes": 32542,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "55010e493527618cc0e50b56b212c3040e3a58fe"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-034/eeg/sub-034_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-034/eeg/sub-034_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-034/eeg/sub-034_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-034/eeg/sub-034_task-N170_eeg.fdt",
+      "sha256": "677e4b0a39ffd6490e00b7cc9ff7e02315c2d6bc369792b5ce257ca70ba02fab",
+      "size_bytes": 72314880,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "677e4b0a39ffd6490e00b7cc9ff7e02315c2d6bc369792b5ce257ca70ba02fab"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-034/eeg/sub-034_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-034/eeg/sub-034_task-N170_eeg.json",
+      "sha256": "ef8948f13a01db7246adf12be5ef84bb27a2b46d91c06109cd94e74317f24b13",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "e33d7e6e7fda04b0a14de8b193a15bfba0b78855"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-034/eeg/sub-034_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-034/eeg/sub-034_task-N170_eeg.set",
+      "sha256": "3c8aeb375d84dea673d5af51fdf569082081c94bdb42ac92452ed5e2531cf8f4",
+      "size_bytes": 1353031,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "3c8aeb375d84dea673d5af51fdf569082081c94bdb42ac92452ed5e2531cf8f4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-034/eeg/sub-034_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-034/eeg/sub-034_task-N170_events.tsv",
+      "sha256": "251eb1555ddeab426ca8dc1bb2e5af2957186caaf805d22f56f595e44e312d79",
+      "size_bytes": 32496,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "89f15c4f96ee1982c6f080aec72915d89af18af9"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-035/eeg/sub-035_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-035/eeg/sub-035_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-035/eeg/sub-035_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-035/eeg/sub-035_task-N170_eeg.fdt",
+      "sha256": "12c263470daf605c03c0aef48a31d0ecac341130d9308e67dea4cd2adf2ecf65",
+      "size_bytes": 81911808,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "12c263470daf605c03c0aef48a31d0ecac341130d9308e67dea4cd2adf2ecf65"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-035/eeg/sub-035_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-035/eeg/sub-035_task-N170_eeg.json",
+      "sha256": "e661b13a65e9c6d3732b5281cff4ec74d800f732d38640712543c25c09d5f9e6",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "98c2b9be69f5a86c7f4f314daa681ee6b1f23675"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-035/eeg/sub-035_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-035/eeg/sub-035_task-N170_eeg.set",
+      "sha256": "ce7b2c5f415e1d3b8e9a68f208a520230fede9f2fb6c81d710b3896a339f4017",
+      "size_bytes": 1540181,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "ce7b2c5f415e1d3b8e9a68f208a520230fede9f2fb6c81d710b3896a339f4017"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-035/eeg/sub-035_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-035/eeg/sub-035_task-N170_events.tsv",
+      "sha256": "2b57ee31118e508c06d6de0e2828fee65bb919458a583fbbf45b07e98c63b841",
+      "size_bytes": 32311,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6972ed0d1fe9526bf58e2ff4d3c1a5b07608d017"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-036/eeg/sub-036_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-036/eeg/sub-036_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-036/eeg/sub-036_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-036/eeg/sub-036_task-N170_eeg.fdt",
+      "sha256": "dced280dc4e54dffcc27ae7ef9b4e98a42514e0c04a4807b22710543a56e78a4",
+      "size_bytes": 71639040,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "dced280dc4e54dffcc27ae7ef9b4e98a42514e0c04a4807b22710543a56e78a4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-036/eeg/sub-036_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-036/eeg/sub-036_task-N170_eeg.json",
+      "sha256": "b6137fa38ae0ecc7918254cbb093d474988061db5b877c0748fff6f1fbe3bf85",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "392e44effe9de36f4b94982e10aec1805fd96036"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-036/eeg/sub-036_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-036/eeg/sub-036_task-N170_eeg.set",
+      "sha256": "334f81ae1629fac882f176fe2dc7a5d13e07240929521e14762d0b2201e094c7",
+      "size_bytes": 1340041,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "334f81ae1629fac882f176fe2dc7a5d13e07240929521e14762d0b2201e094c7"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-036/eeg/sub-036_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-036/eeg/sub-036_task-N170_events.tsv",
+      "sha256": "a5c6e031d8a111f56bee7d3c33acc89fb70e5d64fe3ba80df026e6b304fb0343",
+      "size_bytes": 32272,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3d35c4754cc153a8843fed04db03726fe943134c"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-037/eeg/sub-037_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-037/eeg/sub-037_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-037/eeg/sub-037_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-037/eeg/sub-037_task-N170_eeg.fdt",
+      "sha256": "a894d3d38bb3a62a380e06843374e62e939cd14a65c51e9f49f9f421c8ad1218",
+      "size_bytes": 78667776,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "a894d3d38bb3a62a380e06843374e62e939cd14a65c51e9f49f9f421c8ad1218"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-037/eeg/sub-037_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-037/eeg/sub-037_task-N170_eeg.json",
+      "sha256": "590163921ca2c09d28776843013aca5f19a72a8bbbbeb613e650079c4d0c420c",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3b13278eaf36f14296ba1442052627daf4483b7e"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-037/eeg/sub-037_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-037/eeg/sub-037_task-N170_eeg.set",
+      "sha256": "47b4c1b9c4cc19e2adaa740809b80086f90d04ab74f473c8f8f5661987c5a91f",
+      "size_bytes": 1476525,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "47b4c1b9c4cc19e2adaa740809b80086f90d04ab74f473c8f8f5661987c5a91f"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-037/eeg/sub-037_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-037/eeg/sub-037_task-N170_events.tsv",
+      "sha256": "ae3f4abac87fa308153514c85b739fedfb457f6fdd173dc12e6e6d51710a83c0",
+      "size_bytes": 32548,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "aa207bfb8c85be0660ba596809ae7516106093cd"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-038/eeg/sub-038_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-038/eeg/sub-038_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-038/eeg/sub-038_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-038/eeg/sub-038_task-N170_eeg.fdt",
+      "sha256": "7d21a86b26034c3a1a961b8a095ad11d9f46b2c1cafe50b09695621f9d1308b6",
+      "size_bytes": 112594944,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "7d21a86b26034c3a1a961b8a095ad11d9f46b2c1cafe50b09695621f9d1308b6"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-038/eeg/sub-038_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-038/eeg/sub-038_task-N170_eeg.json",
+      "sha256": "38e092a5164248e13b89d504d0e559ca7814108b3ef98361667a845cd5c7aad8",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "6a93e7cecfbc14b45251acb200f8d58038873693"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-038/eeg/sub-038_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-038/eeg/sub-038_task-N170_eeg.set",
+      "sha256": "d2ae85726b26660c23a982a9121b9f0fce7c0b79353dd5e048ef6c2a606210d4",
+      "size_bytes": 2140508,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "d2ae85726b26660c23a982a9121b9f0fce7c0b79353dd5e048ef6c2a606210d4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-038/eeg/sub-038_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-038/eeg/sub-038_task-N170_events.tsv",
+      "sha256": "c22b25ee1e60c4cb32ef7c5c40e29385271748f37a9634ef265e64a9de7d39fb",
+      "size_bytes": 32481,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "8ae22a48b6ff9703caaba3be2fc7e05cdc3ffc53"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-039/eeg/sub-039_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-039/eeg/sub-039_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-039/eeg/sub-039_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-039/eeg/sub-039_task-N170_eeg.fdt",
+      "sha256": "c51289fc6a6a79099af7400b2d10e814df228edba47a2b19db32ccfc6b5eb426",
+      "size_bytes": 86237184,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "c51289fc6a6a79099af7400b2d10e814df228edba47a2b19db32ccfc6b5eb426"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-039/eeg/sub-039_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-039/eeg/sub-039_task-N170_eeg.json",
+      "sha256": "ac55cebaadae3d291d24e788f04cba525352f95621fa8cb4659d2de72d32fab3",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "096892cb55f9a6b6b0d374172540c8e708008bdc"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-039/eeg/sub-039_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-039/eeg/sub-039_task-N170_eeg.set",
+      "sha256": "1b5cad61c3c917d7cb96098974e8c75497d758f623b74c14734eb12c62bd7760",
+      "size_bytes": 1624194,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "1b5cad61c3c917d7cb96098974e8c75497d758f623b74c14734eb12c62bd7760"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-039/eeg/sub-039_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-039/eeg/sub-039_task-N170_events.tsv",
+      "sha256": "ec7f5536df7c3b65da726ce9923a9ba0afa2d9ddd0fa9059a3c24ce1d9e58bf6",
+      "size_bytes": 32589,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "608b7efeb0af6e8e3dd8d5137d78141aef571b50"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-040/eeg/sub-040_task-N170_channels.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-040/eeg/sub-040_task-N170_channels.tsv",
+      "sha256": "19c4ca3fa445da3b823ae69c9ff9cd7fc3003c85a7142092cfd2f45411d8c000",
+      "size_bytes": 512,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "4da38d26a268f636b287dfc0d9333d0cde5f5f63"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-040/eeg/sub-040_task-N170_eeg.fdt",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-040/eeg/sub-040_task-N170_eeg.fdt",
+      "sha256": "34c4f5718174219fb52ead5cb4e12259d72d64305db3f2a3a3d80cb52dfbf4e4",
+      "size_bytes": 92454912,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "34c4f5718174219fb52ead5cb4e12259d72d64305db3f2a3a3d80cb52dfbf4e4"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-040/eeg/sub-040_task-N170_eeg.json",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-040/eeg/sub-040_task-N170_eeg.json",
+      "sha256": "38c1c73920a3d9020510eacad1da048d6d2fd90eefe756feac0661a07c6922da",
+      "size_bytes": 1331,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "3ddc002f430f96c3b6f32b9cef63d6e962df5b05"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-040/eeg/sub-040_task-N170_eeg.set",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-040/eeg/sub-040_task-N170_eeg.set",
+      "sha256": "c1eb9c306e11fa3bf8f3be41c9827422f04cfe962e54dd3a1eb887acb3ff5db9",
+      "size_bytes": 1746472,
+      "official_checksum_algorithm": "sha256",
+      "official_checksum": "c1eb9c306e11fa3bf8f3be41c9827422f04cfe962e54dd3a1eb887acb3ff5db9"
+    },
+    {
+      "provider": "nemar",
+      "path": "nemar/sub-040/eeg/sub-040_task-N170_events.tsv",
+      "url": "https://data.nemar.org/nm000132/v1.1.1/sub-040/eeg/sub-040_task-N170_events.tsv",
+      "sha256": "00e57fb0e5293656bd2f08caf362c7e697540613eeb4746bc33cc9f82672a092",
+      "size_bytes": 32501,
+      "official_checksum_algorithm": "git",
+      "official_checksum": "594726bb7943ec765c3b66cfe4e5529fd5806900"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-004",
+      "kind": "original",
+      "path": "osf/sub-004/4_N170.set",
+      "url": "https://osf.io/download/avx63/",
+      "sha256": "cfce6ed011750d3377ab4e812f89141e9783e5a441f91199c1836c30470e3d56"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-004",
+      "kind": "shifted",
+      "path": "osf/sub-004/4_N170_shifted.set",
+      "url": "https://osf.io/download/t82wk/",
+      "sha256": "d92fe225413574ea04558a61d9ff245c65386ce0242e32664aa9a4dd605cf54e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-005",
+      "kind": "original",
+      "path": "osf/sub-005/5_N170.set",
+      "url": "https://osf.io/download/usbp6/",
+      "sha256": "84c1bf433e93a9ab7ca9e99eb54e45156b8be17b67409adf05a9f5a52c9c0fc7"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-005",
+      "kind": "shifted",
+      "path": "osf/sub-005/5_N170_shifted.set",
+      "url": "https://osf.io/download/c23hn/",
+      "sha256": "f34dc6f3204027cc36c78db31bb1b4416d50ad651fdca9b17f4e7b7f367641c4"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-006",
+      "kind": "original",
+      "path": "osf/sub-006/6_N170.set",
+      "url": "https://osf.io/download/f9xsy/",
+      "sha256": "1e915916986077fb65a85dc1040735be766fbb711263139b21078b803e034810"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-006",
+      "kind": "shifted",
+      "path": "osf/sub-006/6_N170_shifted.set",
+      "url": "https://osf.io/download/eguxc/",
+      "sha256": "dc2841c79472497542b2f00121a046919cbaffcf1dd11cc220f5026093d03522"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-007",
+      "kind": "original",
+      "path": "osf/sub-007/7_N170.set",
+      "url": "https://osf.io/download/cbjkr/",
+      "sha256": "b3943f23f13a4651ed3fdc13312694e620dfa691842c2e0c2978066c4b187e97"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-007",
+      "kind": "shifted",
+      "path": "osf/sub-007/7_N170_shifted.set",
+      "url": "https://osf.io/download/n5vah/",
+      "sha256": "0c102766e131f35c0a42502503a0636e06951abe316e4d23a3b18908a73191f5"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-008",
+      "kind": "original",
+      "path": "osf/sub-008/8_N170.set",
+      "url": "https://osf.io/download/uexbn/",
+      "sha256": "079f4628e821c66b46bccf999687b7cbfcb892fbf71bc14c24d73ce601f57423"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-008",
+      "kind": "shifted",
+      "path": "osf/sub-008/8_N170_shifted.set",
+      "url": "https://osf.io/download/umezv/",
+      "sha256": "bc41c09d3b0fa2915ac20c0939775f30ca86e423841b0bae3cb343657af8bbd2"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-009",
+      "kind": "original",
+      "path": "osf/sub-009/9_N170.set",
+      "url": "https://osf.io/download/spx52/",
+      "sha256": "abae239ea13c50df8122aa08a48a9a08119adc71a93ee1e1ae5252c4468b2300"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-009",
+      "kind": "shifted",
+      "path": "osf/sub-009/9_N170_shifted.set",
+      "url": "https://osf.io/download/4zebm/",
+      "sha256": "232105724d0c5a346b3685f90159c3f1ca48c5631cc6cf9f67cf52d9b3cfd321"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-010",
+      "kind": "original",
+      "path": "osf/sub-010/10_N170.set",
+      "url": "https://osf.io/download/bj7fk/",
+      "sha256": "a9b48d46fbe47b09234f98ed47b453a8b21e44239a7436a0dbe014357de143d9"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-010",
+      "kind": "shifted",
+      "path": "osf/sub-010/10_N170_shifted.set",
+      "url": "https://osf.io/download/quhyf/",
+      "sha256": "e910e4c3c2c73760c3db86525ef816e0851a9fb242811543365be89034d8236d"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-011",
+      "kind": "original",
+      "path": "osf/sub-011/11_N170.set",
+      "url": "https://osf.io/download/9av6b/",
+      "sha256": "552dcc71943d4817d5a48278f69c6d60ef21accda0f15b5afedb5473056fd9e8"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-011",
+      "kind": "shifted",
+      "path": "osf/sub-011/11_N170_shifted.set",
+      "url": "https://osf.io/download/5f1620506ef4400137bca93b/",
+      "sha256": "c7f524889cbf2b9c2f3fef38b66db0cbd09e85f4429f0b90a7dadbe3a6cf6d5a"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-012",
+      "kind": "original",
+      "path": "osf/sub-012/12_N170.set",
+      "url": "https://osf.io/download/2br7g/",
+      "sha256": "7f19d26f29b87d4a533429b9b1b99bec9718596bbd913bdf2331ee07d26e8779"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-012",
+      "kind": "shifted",
+      "path": "osf/sub-012/12_N170_shifted.set",
+      "url": "https://osf.io/download/vyucf/",
+      "sha256": "20463b76c9875cc0f6da66b016fa4d3b4684d295275d8ae4c322f53d3c45406f"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-013",
+      "kind": "original",
+      "path": "osf/sub-013/13_N170.set",
+      "url": "https://osf.io/download/653h2/",
+      "sha256": "b8449612a5b0881957613915fe11bfe9f7fbd89568b11331042fc2f248fb4c1c"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-013",
+      "kind": "shifted",
+      "path": "osf/sub-013/13_N170_shifted.set",
+      "url": "https://osf.io/download/5f1621d06ef4400136bca462/",
+      "sha256": "c0ede1c509faf78e3a27f223f3f90deeeba4d595c55480d2ee7bab85647105cf"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-014",
+      "kind": "original",
+      "path": "osf/sub-014/14_N170.set",
+      "url": "https://osf.io/download/9dzes/",
+      "sha256": "09f1e75c70cd3721dfc71eb05a88a5d051e51ae1f0bcd9e4b781e64f6273e109"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-014",
+      "kind": "shifted",
+      "path": "osf/sub-014/14_N170_shifted.set",
+      "url": "https://osf.io/download/5f16229d0596f601227a07a7/",
+      "sha256": "b61d8467f0e450b74650292eab087431743bb33822f6f68c8309b8e7ce080d6e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-015",
+      "kind": "original",
+      "path": "osf/sub-015/15_N170.set",
+      "url": "https://osf.io/download/bjgu2/",
+      "sha256": "a9477a3356783a7791d6c53736c88ae7180180b0e8c1386b77475ed203983e0b"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-015",
+      "kind": "shifted",
+      "path": "osf/sub-015/15_N170_shifted.set",
+      "url": "https://osf.io/download/5f16235b0870f20133098586/",
+      "sha256": "5289c5ea6afa4b89b0fc49038876da9a6f352b2123240adc778d068e690f0943"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-016",
+      "kind": "original",
+      "path": "osf/sub-016/16_N170.set",
+      "url": "https://osf.io/download/7rmpd/",
+      "sha256": "d5fe8db7d2e63f27ce5037b28fb0a9b363a5a7d9b936bc54f003bcd6a09c015d"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-016",
+      "kind": "shifted",
+      "path": "osf/sub-016/16_N170_shifted.set",
+      "url": "https://osf.io/download/5f1624186ef4400136bca719/",
+      "sha256": "71f63d8f287ed8bf0bc3e9773914f4eccfe83bf3cb21063d0ee6986d5fbeea40"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-017",
+      "kind": "original",
+      "path": "osf/sub-017/17_N170.set",
+      "url": "https://osf.io/download/bsnvj/",
+      "sha256": "007682673d0c705dcaaa177641d2778df79ad805309c95276d789e32be9d5753"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-017",
+      "kind": "shifted",
+      "path": "osf/sub-017/17_N170_shifted.set",
+      "url": "https://osf.io/download/5f1624d80870f2012709cd39/",
+      "sha256": "50bc67108c48668bd61a1ade5d86035efa902d5a34f97a2d96a10d8a9ac2aa32"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-018",
+      "kind": "original",
+      "path": "osf/sub-018/18_N170.set",
+      "url": "https://osf.io/download/4fz95/",
+      "sha256": "8b5e9fd0aa43325fbe648e182822939c45e64aa1a3dff7db630bb96f2c3ed2ac"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-018",
+      "kind": "shifted",
+      "path": "osf/sub-018/18_N170_shifted.set",
+      "url": "https://osf.io/download/fev8r/",
+      "sha256": "d7b2d21beeec9fc81f35eb309bbd7e14feff02e8cea882f3b5eec168df903eda"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-019",
+      "kind": "original",
+      "path": "osf/sub-019/19_N170.set",
+      "url": "https://osf.io/download/rhnk6/",
+      "sha256": "23c1743f30aefb08aaf088cdb78567a6c9d1135229a32250f77414089099183e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-019",
+      "kind": "shifted",
+      "path": "osf/sub-019/19_N170_shifted.set",
+      "url": "https://osf.io/download/5f1626660870f20133098917/",
+      "sha256": "d36bee4867b865365c77f0cffbbb3b15f88b7bea38f6df52aa6710bd4e187f0f"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-020",
+      "kind": "original",
+      "path": "osf/sub-020/20_N170.set",
+      "url": "https://osf.io/download/6e7u9/",
+      "sha256": "87fbcbdb619e1a2cd46a0ddb2b10f675ed6c30967caee2a86dac0e09f0bdc750"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-020",
+      "kind": "shifted",
+      "path": "osf/sub-020/20_N170_shifted.set",
+      "url": "https://osf.io/download/5f1627e06ef4400130bd19e8/",
+      "sha256": "a90a61cbc44f05d960c47d669455a6aa7ec27ba03bfe82db6d0e65273f69a211"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-021",
+      "kind": "original",
+      "path": "osf/sub-021/21_N170.set",
+      "url": "https://osf.io/download/74tcb/",
+      "sha256": "e2f1bd1dce596f2b39a140c84fe1ad59e7dc5ba76d57b39fd78a6569432e2740"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-021",
+      "kind": "shifted",
+      "path": "osf/sub-021/21_N170_shifted.set",
+      "url": "https://osf.io/download/5f16289f6ef4400130bd1ab3/",
+      "sha256": "576f42721bc483dd6ca3e3c65378467d698e7902f9814fcde36d21493214f71c"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-022",
+      "kind": "original",
+      "path": "osf/sub-022/22_N170.set",
+      "url": "https://osf.io/download/bzan9/",
+      "sha256": "baa0e3f1364a67266e5d31d11a22a1da3c35054be69c77634ddbd4d8453ae55b"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-022",
+      "kind": "shifted",
+      "path": "osf/sub-022/22_N170_shifted.set",
+      "url": "https://osf.io/download/5f1629660870f2012709d10a/",
+      "sha256": "db9fc12070e51844dde0f788cd0a50636e10ca489a1fbf59e4a8552b7bfbdf1c"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-023",
+      "kind": "original",
+      "path": "osf/sub-023/23_N170.set",
+      "url": "https://osf.io/download/72qpf/",
+      "sha256": "dc0716b4d84ab42590eead5648628e96dc68edb01b15b190decdd9a95a649963"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-023",
+      "kind": "shifted",
+      "path": "osf/sub-023/23_N170_shifted.set",
+      "url": "https://osf.io/download/5f162a320870f20132099a2d/",
+      "sha256": "60589a7f4654327700b3ccc7184f3df14c785284b5c4db72d115e391d1f1531b"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-024",
+      "kind": "original",
+      "path": "osf/sub-024/24_N170.set",
+      "url": "https://osf.io/download/d9mbn/",
+      "sha256": "17219905026929b2fef24cde9f17789fa900125e7c93539eb80965173c64627e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-024",
+      "kind": "shifted",
+      "path": "osf/sub-024/24_N170_shifted.set",
+      "url": "https://osf.io/download/5f162afe6ef4400130bd1d32/",
+      "sha256": "66f7f9c8db5831bc2b4ce03225e792b8b33186918b032e3db3db6a252ecec68a"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-025",
+      "kind": "original",
+      "path": "osf/sub-025/25_N170.set",
+      "url": "https://osf.io/download/ng8pv/",
+      "sha256": "25f687a00fef1e0faec3356bf8b78f23f4673c202577728219a6e150407d48b0"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-025",
+      "kind": "shifted",
+      "path": "osf/sub-025/25_N170_shifted.set",
+      "url": "https://osf.io/download/5f162bcc6ef4400130bd1df4/",
+      "sha256": "20f462965f800022fda9c8b000e589ec254f183bf3fe6bd48bb02c419577272e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-026",
+      "kind": "original",
+      "path": "osf/sub-026/26_N170.set",
+      "url": "https://osf.io/download/8ayhu/",
+      "sha256": "23230b102fb02a0110ea1b52174fe5fb3b2d7b5ce514082a0d6558d83cd38ad9"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-026",
+      "kind": "shifted",
+      "path": "osf/sub-026/26_N170_shifted.set",
+      "url": "https://osf.io/download/5f162ca50870f2012709d44f/",
+      "sha256": "2114a9592dae1bc5f2174b935f7a48ed6b97713b6498be4785952b84f49864a3"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-027",
+      "kind": "original",
+      "path": "osf/sub-027/27_N170.set",
+      "url": "https://osf.io/download/uq85j/",
+      "sha256": "e5a24a264ff222c3043cd5bc6c00660b43ebb8fc15d7efba65f320546f09ac37"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-027",
+      "kind": "shifted",
+      "path": "osf/sub-027/27_N170_shifted.set",
+      "url": "https://osf.io/download/5f162d990870f201330992fd/",
+      "sha256": "19195f9fcfa1de7cf468a4949684d90346fdf48dd09cc00d0bbc46a17effa6cb"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-028",
+      "kind": "original",
+      "path": "osf/sub-028/28_N170.set",
+      "url": "https://osf.io/download/bhcau/",
+      "sha256": "3f329bcd6288be13b4c58c138a765bf520ee8d30413930666bfe8b264c834aff"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-028",
+      "kind": "shifted",
+      "path": "osf/sub-028/28_N170_shifted.set",
+      "url": "https://osf.io/download/5f162e950596f6011d79ee25/",
+      "sha256": "e178d4fa9ae15328e33545ace762675418ba15c1462fa6cd4c9c00ba7d13a752"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-029",
+      "kind": "original",
+      "path": "osf/sub-029/29_N170.set",
+      "url": "https://osf.io/download/v2wx4/",
+      "sha256": "f26bb8d305adc8e16699b87083654caf1676a10fb034dfadc7863eb296c0042c"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-029",
+      "kind": "shifted",
+      "path": "osf/sub-029/29_N170_shifted.set",
+      "url": "https://osf.io/download/5f162fa50870f2013309977c/",
+      "sha256": "619e6dd96d797afd25279a1069a357a58cda135b7ca2cac2150d8792fbd4009c"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-030",
+      "kind": "original",
+      "path": "osf/sub-030/30_N170.set",
+      "url": "https://osf.io/download/dnxqf/",
+      "sha256": "140f8af3b7b6ed66fd1cee07f08b2eaa7d92243b896e4e2e7d65d463f57b488b"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-030",
+      "kind": "shifted",
+      "path": "osf/sub-030/30_N170_shifted.set",
+      "url": "https://osf.io/download/5f1631b50596f6011d79f3c0/",
+      "sha256": "c29ac5b59d5e9df507f2d9d48ea22d0ff5a9a7a23cf1f154a961a15f62fd8a78"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-031",
+      "kind": "original",
+      "path": "osf/sub-031/31_N170.set",
+      "url": "https://osf.io/download/9qghv/",
+      "sha256": "995e02608cd7771c1d170f67b8908e4d8f122c4f8fc8f7703db28f08c9bb8001"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-031",
+      "kind": "shifted",
+      "path": "osf/sub-031/31_N170_shifted.set",
+      "url": "https://osf.io/download/5f1632c26ef4400137bcce0c/",
+      "sha256": "9d099a8f242bbd0c3d1a81b51426020d4bed720d7abf0c8f1407d5d5697690ec"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-032",
+      "kind": "original",
+      "path": "osf/sub-032/32_N170.set",
+      "url": "https://osf.io/download/m7u36/",
+      "sha256": "531e86996ddf1cb92d891df1b731731ab1ac714bb499b3a76fdd37422be8e005"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-032",
+      "kind": "shifted",
+      "path": "osf/sub-032/32_N170_shifted.set",
+      "url": "https://osf.io/download/5f1633cc0870f2011709c9f0/",
+      "sha256": "1bdc8523d05e2100f718955c0efee8dfaecf141203fe7bc69164fafa82fa3d3f"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-033",
+      "kind": "original",
+      "path": "osf/sub-033/33_N170.set",
+      "url": "https://osf.io/download/26tc5/",
+      "sha256": "d90fc7c8e2b3e79906d8f186715013d0f7a97c27941d012ac45a5222772bf9bb"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-033",
+      "kind": "shifted",
+      "path": "osf/sub-033/33_N170_shifted.set",
+      "url": "https://osf.io/download/5f1634d06ef4400137bcd42a/",
+      "sha256": "0567de15e0234151d49e33fb57bd3acc8c228222c2de041e257adb16ed68d3d8"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-034",
+      "kind": "original",
+      "path": "osf/sub-034/34_N170.set",
+      "url": "https://osf.io/download/j5hmn/",
+      "sha256": "e1bdd86a37e28ea2c64d99f540db4e786efb67a8c761332039ca33727ed7e0a6"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-034",
+      "kind": "shifted",
+      "path": "osf/sub-034/34_N170_shifted.set",
+      "url": "https://osf.io/download/5f1635d70596f6011979ebb0/",
+      "sha256": "f10096e0e7cc9c1a9c82255379ad7b4a01b9367d682112a45e022bf1a5ddfae6"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-035",
+      "kind": "original",
+      "path": "osf/sub-035/35_N170.set",
+      "url": "https://osf.io/download/tsq7m/",
+      "sha256": "54252f1e0d2d8d6d49651fc826851fe19755843ef8a5f805f9d779325f440a88"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-035",
+      "kind": "shifted",
+      "path": "osf/sub-035/35_N170_shifted.set",
+      "url": "https://osf.io/download/5f1636d36ef4400137bcda16/",
+      "sha256": "cab73c98638b12a4b1b95d329304f27abe48feb4efb0613ff166d19108887c2f"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-036",
+      "kind": "original",
+      "path": "osf/sub-036/36_N170.set",
+      "url": "https://osf.io/download/h3f6n/",
+      "sha256": "c1b7152c4b870c0c54238eb1e5a9c2660a6efcb0a440a778e6361716d1c815b2"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-036",
+      "kind": "shifted",
+      "path": "osf/sub-036/36_N170_shifted.set",
+      "url": "https://osf.io/download/5f1637e50596f6011d79fdeb/",
+      "sha256": "30571ec6b870a36f961f1cbae5ff77bec0e9629dd18daf461b7208809c0117f7"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-037",
+      "kind": "original",
+      "path": "osf/sub-037/37_N170.set",
+      "url": "https://osf.io/download/gvhnf/",
+      "sha256": "150f8834324c3ed6627b4c5e5da3957a4ca0cb0b647251e4cd2a74cd28a36bd6"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-037",
+      "kind": "shifted",
+      "path": "osf/sub-037/37_N170_shifted.set",
+      "url": "https://osf.io/download/5f1638f90870f2013209c427/",
+      "sha256": "327bf00724fb381b8e88efba582db18189fc9e234621f1c4d074c2d0803ac2b8"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-038",
+      "kind": "original",
+      "path": "osf/sub-038/38_N170.set",
+      "url": "https://osf.io/download/p72y6/",
+      "sha256": "48901ea219adea3bb6ee0e06227afe239187cf5f68c6c1b672e49352f62ebcc7"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-038",
+      "kind": "shifted",
+      "path": "osf/sub-038/38_N170_shifted.set",
+      "url": "https://osf.io/download/w5kds/",
+      "sha256": "d9f42ffee2209b2583efed7600fdace97e8def475a32abe8a8ffd274d774248e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-039",
+      "kind": "original",
+      "path": "osf/sub-039/39_N170.set",
+      "url": "https://osf.io/download/5gmjs/",
+      "sha256": "0870ebff8ba04689b88cf9400bb5b7cf13f64215606c305f99166a4cda716e44"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-039",
+      "kind": "shifted",
+      "path": "osf/sub-039/39_N170_shifted.set",
+      "url": "https://osf.io/download/5f163b120596f6011d7a03ec/",
+      "sha256": "a1a141f7e925238532a239f82646f9da6c1bfea2ab0401bd50ad9aba514c36d6"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-040",
+      "kind": "original",
+      "path": "osf/sub-040/40_N170.set",
+      "url": "https://osf.io/download/bfegv/",
+      "sha256": "7f2f4a3423b3e7dc27f6795fe5a6e5b019b6a6de7c6c8bc0bbfad9da3a000d2e"
+    },
+    {
+      "provider": "osf",
+      "subject": "sub-040",
+      "kind": "shifted",
+      "path": "osf/sub-040/40_N170_shifted.set",
+      "url": "https://osf.io/download/5f163d6a0870f2013209d1c5/",
+      "sha256": "08a6cd8d464383d5c704df7ae89ed4478059b2c8710e328196a655b66d1424a1"
+    }
+  ],
+  "scientific_replay": "NOT_EXECUTED",
+  "nemar_osf_eeg_byte_identity": "NOT_ESTABLISHED",
+  "physical_display_onset": "NOT_VERIFIED"
+}

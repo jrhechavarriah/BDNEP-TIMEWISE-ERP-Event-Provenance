@@ -1,0 +1,3 @@
+analysis,participants,trials,mean_delta_uV,ci95_low_uV,ci95_high_uV,sign_flips,inference
+PO8 Arm A primary,37,11840,-2.136471428450268,-2.8640012298408357,-1.4044264941407696,7,Primary participant bootstrap
+PO8 Arm B secondary,37,10810,-2.1606500666719315,,,8,Descriptive only

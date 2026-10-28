@@ -1,0 +1,18 @@
+{
+  "status": "S2_GENERATED_FROM_VERIFIED_P14",
+  "participants": 37,
+  "arm_a_stimuli": 11840,
+  "arm_b_eligible_all_conditions": 10810,
+  "face_eligible": 2720,
+  "car_eligible": 2691,
+  "scrambled_face_eligible_not_plotted": 2685,
+  "scrambled_car_eligible_not_plotted": 2714,
+  "sub_016_face": 2,
+  "sub_016_car": 77,
+  "participant_table_sha256": "a88c1838eeb69ee7cbebbf9af97ae0e3721a22b112c45b69cc9a1bc904fdbc9a",
+  "replay_report_sha256": "6b4d650f1ea967339687510729017d55c8d342a281403371953940303f53c0fa",
+  "interpretation": "Descriptive Arm B trial availability; no post-hoc exclusion or artifact rejection",
+  "figure_png_sha256": "17ea3acac6ca4f2faa97d6fab17d98bed5fdb7c07800f9a074f0f6fe980982aa",
+  "figure_svg_sha256": "91c469c4ba99556eb80c1a260282cce96cec6e66d03f8d46fff06892e2e5b6ec",
+  "figure": "Supplementary_Figure_S2_Face_Car_Behavioral_Eligibility.png"
+}

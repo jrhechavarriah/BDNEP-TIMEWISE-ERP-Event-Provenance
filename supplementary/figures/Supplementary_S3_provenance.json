@@ -1,0 +1,65 @@
+{
+  "status": "S3_RENDERED_FROM_VERIFIED_NEMAR_UNFILTERED_EEG",
+  "figure": "Supplementary_Figure_S3_Unfiltered_EEG_Anomalies.png",
+  "figure_sha256": "832d5efa85ba8e39eda40a9e40c00b5aedde24a26fd574396c54dad39c312362",
+  "source_dataset": "nm000132",
+  "dataset_version": "v1.1.1",
+  "source_contract_sha256": "f75505d2b30f57d4b6ce88a5efcd60c2cf27398e7021dbe2545f34dab4d4827c",
+  "window_s": {
+    "sub-029": [
+      151.0,
+      162.5
+    ],
+    "sub-035": [
+      159.5,
+      175.0
+    ]
+  },
+  "source_sha256": {
+    "sub-029": {
+      "set": "f518f17b75fb63db85718d119e468b271aa9e757999e0aab0cc52ec023b72ddf",
+      "fdt": "2b43cf82042f7d22015f51f19aa3b87600848276dda2a4e1474ab41024cd07fc"
+    },
+    "sub-035": {
+      "set": "ce7b2c5f415e1d3b8e9a68f208a520230fede9f2fb6c81d710b3896a339f4017",
+      "fdt": "12c263470daf605c03c0aef48a31d0ecac341130d9308e67dea4cd2adf2ecf65"
+    }
+  },
+  "diagnostics": {
+    "sub-029": {
+      "n_recorded_channels": 33,
+      "fs": 1024.0,
+      "samples": 11777,
+      "exceed_max_channels": 1,
+      "max_selected_abs_uV": 259419.87499999997
+    },
+    "sub-035": {
+      "n_recorded_channels": 33,
+      "fs": 1024.0,
+      "samples": 15873,
+      "exceed_max_channels": 33,
+      "max_selected_abs_uV": 259456.03125
+    }
+  },
+  "channels_shown": {
+    "sub-029": [
+      "Oz",
+      "PO7",
+      "PO8",
+      "O1",
+      "O2"
+    ],
+    "sub-035": [
+      "Oz",
+      "PO7",
+      "PO8",
+      "HEOG_left",
+      "VEOG_lower"
+    ]
+  },
+  "all_33_channels_used_for_summary": true,
+  "descriptive_threshold_uV": 250000.0,
+  "artifact_rejection_or_exclusion": false,
+  "not_an_ERP_result": true,
+  "no_cross_source_byte_identity_claim": true
+}

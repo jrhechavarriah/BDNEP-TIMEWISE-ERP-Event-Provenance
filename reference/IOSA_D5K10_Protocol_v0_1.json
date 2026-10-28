@@ -1,0 +1,211 @@
+{
+  "schema": "AICS2I.IOSA.TIMEWISE.D5K10.v0.1",
+  "title": "D5-K10 — Frozen Extended Validation Protocol for ERP CORE N170",
+  "product": "AICS²I: IOSA-TIMEWISE D5-K10",
+  "version": "0.1",
+  "date": "2026-10-19",
+  "status": "INTERNAL_PROTOCOL_CANDIDATE_FREEZE_BEFORE_EXTENDED_DATA_ANALYSIS",
+  "principle": "Predefine extension design and analytical decisions before inspecting new participants' condition contrasts; pilot is exploratory and remains frozen.",
+  "research_question": "Does the digitally verified author LCD-event correction change N170 face-minus-car mean-amplitude inference in an extended ERP CORE cohort, and which conclusions retain their sign under prespecified temporal-uncertainty operators?",
+  "data_scope": {
+    "source": "ERP CORE N170 original/shifted EEGLAB OSF sources; NEMAR/BIDS where available",
+    "pilot_subjects": [
+      "sub-001",
+      "sub-002",
+      "sub-003"
+    ],
+    "pilot_events": 1924,
+    "pilot_stimuli": 960,
+    "pilot_response_events": 964,
+    "pilot_behavior_A": 960,
+    "pilot_behavior_B": 854,
+    "pilot_subjects_reused_for_inference": false,
+    "extended_target": "All discoverable, accessible, technically eligible distinct ERP CORE N170 participants outside the three-person pilot; up to approximately 40 source participants if accessible, not assumed available, mapped or eligible.",
+    "candidate_discovery": "Inventory OSF/NEMAR participant IDs and metadata only; verify identity and marker mapping before processing; record all exclusions and reasons before inspecting outcomes.",
+    "operational_go_no_go_target": "Aim for at least 20 new eligible independent participants to support a meaningful extended group analysis; NOT a statistical power guarantee. If fewer, label exploratory and do not issue a confirmatory claim.",
+    "holdout_rule": "No new-subject ERP contrast inspection or data-driven changes to inclusion rules before the D5-K10 freeze and cohort manifest. All new subjects processed by the same frozen analysis."
+  },
+  "digital_provenance": {
+    "baseline": "NEMAR sub-001/002/003 markers match original OSF; exactly 26 integer stimulus samples added in source-shifted files at 1024 Hz; 964 responses unshifted",
+    "sampling_hz_pilot": 1024,
+    "author_ERPLAB_parameter_ms": 26,
+    "pilot_shift_samples": 26,
+    "pilot_shift_ms": 25.390625,
+    "extended_gate": "Never assume offset on unseen participants. Check sampling rate, full event-code ordering, response marker alignment, and per-stimulus source shift. Use +26 discrete samples ONLY when independently verified for that participant; otherwise quarantine and document.",
+    "physical_onset_verified": false,
+    "residual_jitter_calibrated": false
+  },
+  "frozen_analysis": {
+    "pilot_authorities": [
+      "D5-K6F8 frozen A/B output and underlying pre-artifact behavioral event identities",
+      "D5-K7A–E frozen hypothetical measurement-window uncertainty experiments (not measured hardware jitter)",
+      "D5-K8G and D5-K8I-R1 frozen OSF vs NEMAR per-event provenance",
+      "D5-K9 frozen paired original/LCD-referenced pilot analysis, including 12 comparison rows and 98,400 waveform rows"
+    ],
+    "units": "Person for group-level inference; trial for estimation within person",
+    "reference_original": "Digital stored original EEG stimulus marker",
+    "reference_lcd": "Source-verified discrete event shift (pilot +26 samples), independently re-epoch and re-baseline; NOT direct physical-onset verification",
+    "stimulus_conditions": [
+      "face",
+      "car",
+      "scrambled_face",
+      "scrambled_car"
+    ],
+    "contrast": "Face minus car mean-amplitude ERP contrast, not peak latency",
+    "primary_channel": "PO8",
+    "secondary_channel": "PO7",
+    "primary_arm": "A: all condition-identifiable stimulus epochs prior to EEG artifact rejection",
+    "behavioral_sensitivity_arm": "B: eligible trials under frozen exact-rule D5-K6A/F8 (one correct response, RT 200–1000ms inclusive); requires source-compatible behavioral fields and event match; report unavailable when not implementable rather than substituting a rule",
+    "primary_window_ms": [
+      110,
+      150
+    ],
+    "epoch_ms": [
+      -200,
+      800
+    ],
+    "baseline_ms": [
+      -200,
+      0
+    ],
+    "window_points_pilot": 41,
+    "filter": "Continuous EEG 0.1–30 Hz, Butterworth IIR order 2, zero phase, EEG channels",
+    "reference": "Average of all EEG channels in subject; prior to epoching",
+    "branch_order": "Verify timing identity → filter/re-reference continuous data once → independent original vs corrected epochs → separate baselines → same matched trial identities → ERP condition means and paired contrasts",
+    "no_ICA": true,
+    "no_artifact_rejection": true,
+    "no_bad_channel_interpolation": true,
+    "cleaning_approved": false,
+    "qc_policy": "Produce blinded QC diagnostics (bad channels, EOG, epoch amplitude, missingness, event consistency); no artifact cleaning until a separate predeclared approved amendment. Uncleaned estimates are methodological sensitivity results, not certified physiological effects.",
+    "primary_endpoint": "Within-subject delta_uV = (corrected - original) face-minus-car mean in 110–150 ms at PO8, Arm A; evaluate only extended held-out participants.",
+    "secondary_endpoints": [
+      "Within-subject change of sign (descriptive, no causal claim)",
+      "PO8 Arm B when complete compatible behavioral metadata available (sensitivity)",
+      "PO7 Arm A/B as secondary channels",
+      "ERP waveform and QC descriptive outputs",
+      "Conditional robustness under prespecified hypothetical finite postprocessing window perturbations, clearly separate from physical timing correction"
+    ],
+    "inferential_rule": "Two-sided participant-level mean delta and 95% participant-resampling bootstrap CI with fixed seed 20261019 and 10000 bootstrap replicates; report sign-flip counts descriptive. If <20 held-out eligible, descriptive only. Primary endpoint only; secondary endpoints remain descriptive unless a prospective multiplicity plan amendment precedes new outcomes.",
+    "bootstrap_seed": 20261019,
+    "bootstrap_replicates": 10000,
+    "sample_size_warning": "Operational n>=20 threshold is not a power analysis; formally justify n with a separate power/precision assessment before claiming adequately powered confirmatory study.",
+    "statistical_scope": "Participants are independent units, multiple trials/channels/arms are not independent persons; no clinical, cognitive or causal inference."
+  },
+  "implementation_stages": [
+    {
+      "id": "K10-0",
+      "name": "Offline source audit and protocol freeze",
+      "entry": "Frozen pilot D5K6F8/K8G/K8I-R1/K9 outputs and read-only protocol",
+      "go": "Hashes all valid; pilot 1924 events, 960 stimuli shifted, 964 responses unchanged, 12 contrasts, 3 sign changes",
+      "no_go": "Tampering, missing manifest, inconsistent count, protocol changed after freeze",
+      "deliverable": "D5K10_FREEZE_* manifest and preflight report",
+      "implementation": "Included stdlib Python preflight; does not analyze extended EEG"
+    },
+    {
+      "id": "K10-1",
+      "name": "Extended participant inventory",
+      "entry": "OSF/NEMAR metadata and confirmed terms of use",
+      "go": "Candidate census, accessible EEG/events/source pairs, unique mapping, missingness and exclusion reasons",
+      "no_go": "Unavailable/mismatched source or rights uncertainties",
+      "deliverable": "candidate_inventory.csv and candidate_registry.json",
+      "implementation": "Separate validated inventory/ingestion component; NOT included in Stage 0"
+    },
+    {
+      "id": "K10-2",
+      "name": "Cohort manifest lock",
+      "entry": "Candidates audited without outcome analysis",
+      "go": "All candidates labeled included/excluded with prespecified eligibility, immutable IDs and source hashes",
+      "no_go": "Selection based on contrast size/sign or hidden outcome inspection",
+      "deliverable": "extended_cohort_lock.json, participant_source_hashes.csv",
+      "implementation": "Separate cohort locker; freeze BEFORE D5-K10 outcome processing"
+    },
+    {
+      "id": "K10-3",
+      "name": "Event provenance and LCD validation",
+      "entry": "Original and shifted EEGLAB / matching BIDS per subject",
+      "go": "Event codes and latencies verified; exact participant offset documented; responses unchanged when applicable",
+      "no_go": "Unresolved subject mapping or temporal transformation",
+      "deliverable": "subject_event_provenance.csv, discrepancies.json",
+      "implementation": "Extend tested D5K8G/K8I-R1 modules after code review"
+    },
+    {
+      "id": "K10-4",
+      "name": "Paired EEG processing and QC",
+      "entry": "Locked eligible subjects and provenance",
+      "go": "Original vs correction branches matched trial-by-trial; frozen preprocessing; QC report; no unauthorized cleaning",
+      "no_go": "Broken provenance, sampling mismatch, failed reproducibility, disallowed artifact operations",
+      "deliverable": "subject_contrasts.csv, qc_report.csv, epoch_counts.csv, waveform_data.parquet_or_csv",
+      "implementation": "Refactor D5-K9 in separate audited release; no change to frozen D5-K9"
+    },
+    {
+      "id": "K10-5",
+      "name": "Group analysis and constrained sensitivity",
+      "entry": "Locked per-person primary estimates and QC",
+      "go": "Held-out-only participant-level effects/CI, multiplicity policy, descriptive sign results, source-aware sensitivity",
+      "no_go": "Treating trials as persons, posthoc cleaning, uncalibrated jitter labeled hardware",
+      "deliverable": "group_results.json, statistical_tables.csv, sensitivity_tables.csv",
+      "implementation": "New locked analysis module"
+    },
+    {
+      "id": "K10-6",
+      "name": "Independent audit and evidence freeze",
+      "entry": "Outputs from all previous stages",
+      "go": "Full SHA256SUMS, second implementation/checker, reproducibility across environments, figure data provenance, anonymization and IP gate review",
+      "no_go": "Hash mismatch, unresolved QC or claims exceeding evidence",
+      "deliverable": "paper_evidence_manifest.json, figures_plan.json, independent_validation_report.json",
+      "implementation": "Separate verifier + ECOTEC sign-off"
+    }
+  ],
+  "acceptance": {
+    "technical": [
+      "All frozen pilot manifests verified",
+      "All 1924 pilot events matched digitally",
+      "Exactly 960 pilot stimuli shifted 26 samples",
+      "Exactly 964 pilot response events unshifted",
+      "Pilot paired comparison exactly 12 rows / 3 sign flips",
+      "Every new subject has traceable source hashes and independent participant ID"
+    ],
+    "scientific": [
+      "All exclusions and outcomes prespecified",
+      "Distinct extended participants from pilot",
+      "Primary analysis at participant level",
+      "Source-verified correction per participant",
+      "No unsupported physical-onset or hardware-jitter claim",
+      "Independent QC and numerical cross-check"
+    ],
+    "outcome_labels": {
+      "GO": "All mandatory gates pass",
+      "HOLD": "Missing evidence, limited n, unresolved QC or unavailable source; transparent restrictions",
+      "STOP": "Hashes altered, unapproved cleaning, selection on outcomes, invalid source mapping or disclosure gate violation"
+    },
+    "manuscript_gate": "Begin final manuscript drafting only after Stage K10-6 evidence lock (or explicitly downgrade to pilot methodological report with truthful limitations)."
+  },
+  "expected_artifacts": [
+    "D5K10_FreezeReport.json",
+    "D5K10_SHA256SUMS.txt",
+    "candidate_inventory.csv",
+    "extended_cohort_lock.json",
+    "participant_source_hashes.csv",
+    "subject_event_provenance.csv",
+    "qc_report.csv",
+    "subject_contrasts.csv",
+    "group_results.json",
+    "statistical_tables.csv",
+    "independent_validation_report.json",
+    "paper_evidence_manifest.json",
+    "figure-source tables and draft multipanel figure plan"
+  ],
+  "publication": {
+    "target": "Biomedical Signal Processing and Control (conditional on validation and editorial scope)",
+    "working_title": "Event-Marker Provenance and Inference Stability in EEG: A Reproducible Evaluation of LCD Delay Correction in ERP N170 Analysis",
+    "illustration_plan": [
+      "Timing provenance flow",
+      "Stimulus/response shift audit",
+      "Original versus corrected ERP traces",
+      "Participant-level paired effect distribution",
+      "QC and conditional robustness"
+    ],
+    "figure_note": "Do not imitate fMRI/connectivity images from the example presentation or assert MRI neuroimaging outcomes. Use actual EEG provenance and validated results.",
+    "writing_rule": "Draft final Results/Abstract after evidence lock; methods skeleton may be assembled internally beforehand, without public release."
+  }
+}

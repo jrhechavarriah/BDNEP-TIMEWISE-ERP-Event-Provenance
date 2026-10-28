@@ -1,0 +1,753 @@
+{
+  "program": "IOSA",
+  "project": "IOSA-TIMEWISE",
+  "stage": "D5-K10-2C6-P5",
+  "created_utc": "2026-10-20T19:40:20.376734+00:00",
+  "status": "LOCKED_COMPUTATIONALLY",
+  "decision_method": "DETERMINISTIC_FROZEN_DOCUMENTARY_CRITERIA",
+  "researcher_prior_authorization": "FORMAL_ELIGIBILITY_REVIEW_AUTHORIZED",
+  "manual_signature_claimed": false,
+  "cohort": {
+    "included_count": 37,
+    "excluded_count": 0,
+    "included_ids": [
+      "sub-004",
+      "sub-005",
+      "sub-006",
+      "sub-007",
+      "sub-008",
+      "sub-009",
+      "sub-010",
+      "sub-011",
+      "sub-012",
+      "sub-013",
+      "sub-014",
+      "sub-015",
+      "sub-016",
+      "sub-017",
+      "sub-018",
+      "sub-019",
+      "sub-020",
+      "sub-021",
+      "sub-022",
+      "sub-023",
+      "sub-024",
+      "sub-025",
+      "sub-026",
+      "sub-027",
+      "sub-028",
+      "sub-029",
+      "sub-030",
+      "sub-031",
+      "sub-032",
+      "sub-033",
+      "sub-034",
+      "sub-035",
+      "sub-036",
+      "sub-037",
+      "sub-038",
+      "sub-039",
+      "sub-040"
+    ],
+    "participants": [
+      {
+        "subject_id": "sub-004",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "4",
+        "sha256": {
+          "original_osf_set": "cfce6ed011750d3377ab4e812f89141e9783e5a441f91199c1836c30470e3d56",
+          "shifted_osf_set": "d92fe225413574ea04558a61d9ff245c65386ce0242e32664aa9a4dd605cf54e",
+          "bids_events_recorded": "8c6cf80a8b406efc9c566242fbf82be6d849047fadf5b581f758e996e8bac902",
+          "osf_pair_manifest_recorded": "2c9e240d09d45c884695066868318d3c4083a630356cb09f305b5328b5c8557b"
+        },
+        "events": 641,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 321,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-005",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "5",
+        "sha256": {
+          "original_osf_set": "84c1bf433e93a9ab7ca9e99eb54e45156b8be17b67409adf05a9f5a52c9c0fc7",
+          "shifted_osf_set": "f34dc6f3204027cc36c78db31bb1b4416d50ad651fdca9b17f4e7b7f367641c4",
+          "bids_events_recorded": "8804a9d56068591f781421f444e9a7872e272cfd6e9a768d427f0fa777b77112",
+          "osf_pair_manifest_recorded": "4df1e9c1823fc29a0c175369e64e066d5d71de51eedda8f519e67b844d230986"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-006",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "6",
+        "sha256": {
+          "original_osf_set": "1e915916986077fb65a85dc1040735be766fbb711263139b21078b803e034810",
+          "shifted_osf_set": "dc2841c79472497542b2f00121a046919cbaffcf1dd11cc220f5026093d03522",
+          "bids_events_recorded": "6d914fc1e783a99de0124c4a08ca47574edf537b99f62018883cb719da0faab4",
+          "osf_pair_manifest_recorded": "6e335fc33766b4e5e9e7fb5138be1a2ed12b3e4548fbeb9f9bdd1de1a35d33d4"
+        },
+        "events": 641,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 321,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-007",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "7",
+        "sha256": {
+          "original_osf_set": "b3943f23f13a4651ed3fdc13312694e620dfa691842c2e0c2978066c4b187e97",
+          "shifted_osf_set": "0c102766e131f35c0a42502503a0636e06951abe316e4d23a3b18908a73191f5",
+          "bids_events_recorded": "6ce76c268d142743e19dc49dadb8c0939d7877372cd220a44fa836c909de8876",
+          "osf_pair_manifest_recorded": "034d3b51505baa801b68d9d98359bf8bdfbf1a5c5358e9c039113c6eff250e04"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-008",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "8",
+        "sha256": {
+          "original_osf_set": "079f4628e821c66b46bccf999687b7cbfcb892fbf71bc14c24d73ce601f57423",
+          "shifted_osf_set": "bc41c09d3b0fa2915ac20c0939775f30ca86e423841b0bae3cb343657af8bbd2",
+          "bids_events_recorded": "72f70cacedd268b9f26e2109210aecb303702d695fca67958527998b2c21e205",
+          "osf_pair_manifest_recorded": "feab6714dcb783e65413030ba155f3093e5795e38419925f8e7338280ebeaa77"
+        },
+        "events": 641,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 321,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-009",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "9",
+        "sha256": {
+          "original_osf_set": "abae239ea13c50df8122aa08a48a9a08119adc71a93ee1e1ae5252c4468b2300",
+          "shifted_osf_set": "232105724d0c5a346b3685f90159c3f1ca48c5631cc6cf9f67cf52d9b3cfd321",
+          "bids_events_recorded": "c9481d3cfbc07a26b14ce5e0cd7f35cda957592576daa4216a24a78cd3462718",
+          "osf_pair_manifest_recorded": "e269f9c0e32deda223dbf7c2f033655a77d3897895c99556ce0f698eb3bba5d7"
+        },
+        "events": 643,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 323,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-010",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "10",
+        "sha256": {
+          "original_osf_set": "a9b48d46fbe47b09234f98ed47b453a8b21e44239a7436a0dbe014357de143d9",
+          "shifted_osf_set": "e910e4c3c2c73760c3db86525ef816e0851a9fb242811543365be89034d8236d",
+          "bids_events_recorded": "85e85373115260f80e8aa76273576672937bdd37bfc8bd348da8247cc3e2dab6",
+          "osf_pair_manifest_recorded": "02be0dcd455ff0b96055e43367a1455ccc119f7c9231f9df32c7adf7bc008eb6"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-011",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "11",
+        "sha256": {
+          "original_osf_set": "552dcc71943d4817d5a48278f69c6d60ef21accda0f15b5afedb5473056fd9e8",
+          "shifted_osf_set": "c7f524889cbf2b9c2f3fef38b66db0cbd09e85f4429f0b90a7dadbe3a6cf6d5a",
+          "bids_events_recorded": "ced636c65b50c761b5216b008da54ca37112e97a6b6d5d7fde3081ad618788cc",
+          "osf_pair_manifest_recorded": "40495d4614e208837a5967daf039536133c578dcc45675e9336b5903c7c52662"
+        },
+        "events": 643,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 323,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-012",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "12",
+        "sha256": {
+          "original_osf_set": "7f19d26f29b87d4a533429b9b1b99bec9718596bbd913bdf2331ee07d26e8779",
+          "shifted_osf_set": "20463b76c9875cc0f6da66b016fa4d3b4684d295275d8ae4c322f53d3c45406f",
+          "bids_events_recorded": "a3b271d870f61d5d045fde16b5d381a8f3c29b15831c5f3e29b8fa0d9d19755b",
+          "osf_pair_manifest_recorded": "dbdfa1209ac752f07124633f6ad9e4ac00c340c479584b04c768d23d15869a9b"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-013",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "13",
+        "sha256": {
+          "original_osf_set": "b8449612a5b0881957613915fe11bfe9f7fbd89568b11331042fc2f248fb4c1c",
+          "shifted_osf_set": "c0ede1c509faf78e3a27f223f3f90deeeba4d595c55480d2ee7bab85647105cf",
+          "bids_events_recorded": "8d16e56838fd43bdd02e067ee3795c2db21b85af6fcb5acfca53e9bfad6d4004",
+          "osf_pair_manifest_recorded": "061f793cdf0acfa572f234029166cc650ca23297288983a9d90f615d169b1e12"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-014",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "14",
+        "sha256": {
+          "original_osf_set": "09f1e75c70cd3721dfc71eb05a88a5d051e51ae1f0bcd9e4b781e64f6273e109",
+          "shifted_osf_set": "b61d8467f0e450b74650292eab087431743bb33822f6f68c8309b8e7ce080d6e",
+          "bids_events_recorded": "b3c4ead65eea9729ea56174a922b0b7a5cfbed1c6739c25ad9246a7fe4e23765",
+          "osf_pair_manifest_recorded": "ab1f5ef62463bb1dff85b44745e0a860fa2907fe4e78131e68da205baf0dc66a"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-015",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "15",
+        "sha256": {
+          "original_osf_set": "a9477a3356783a7791d6c53736c88ae7180180b0e8c1386b77475ed203983e0b",
+          "shifted_osf_set": "5289c5ea6afa4b89b0fc49038876da9a6f352b2123240adc778d068e690f0943",
+          "bids_events_recorded": "81e9724066b7d732dcf7bdeb7416a801ea4e6a3dce1e9493de9ccc6f2a470afb",
+          "osf_pair_manifest_recorded": "57ffa48f2d193ebfda2f6fcec5c3b65d4edb0d0f797722059a37e68742f7c0e2"
+        },
+        "events": 640,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 320,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-016",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "16",
+        "sha256": {
+          "original_osf_set": "d5fe8db7d2e63f27ce5037b28fb0a9b363a5a7d9b936bc54f003bcd6a09c015d",
+          "shifted_osf_set": "71f63d8f287ed8bf0bc3e9773914f4eccfe83bf3cb21063d0ee6986d5fbeea40",
+          "bids_events_recorded": "5d00a705764690d314422f21dc9234fdc0f7c080dae99de8022a98ed7e3186d1",
+          "osf_pair_manifest_recorded": "291eefd06b27fbfe16e3ba58853da0c18bd43cf627ac7344eab5d0adfbd9ae8d"
+        },
+        "events": 568,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 248,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-017",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "17",
+        "sha256": {
+          "original_osf_set": "007682673d0c705dcaaa177641d2778df79ad805309c95276d789e32be9d5753",
+          "shifted_osf_set": "50bc67108c48668bd61a1ade5d86035efa902d5a34f97a2d96a10d8a9ac2aa32",
+          "bids_events_recorded": "9e70f29dcffd37fe7a8d6a5ed154b5c9773f979334961ef23ea296c6853f3d7e",
+          "osf_pair_manifest_recorded": "16fc3fc0155359add36f44f33768b4d468f007b3c02555b7a6b97699e2343ac6"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-018",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "18",
+        "sha256": {
+          "original_osf_set": "8b5e9fd0aa43325fbe648e182822939c45e64aa1a3dff7db630bb96f2c3ed2ac",
+          "shifted_osf_set": "d7b2d21beeec9fc81f35eb309bbd7e14feff02e8cea882f3b5eec168df903eda",
+          "bids_events_recorded": "5e3ef1c01a9e21f303007f6afb6fcd8f475f256f659fff60ff017d804aac5cd1",
+          "osf_pair_manifest_recorded": "eb80eb6d9be1e13641e95f3a9015075f58eaa5c36de07e4a7bab1c3a4e308951"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-019",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "19",
+        "sha256": {
+          "original_osf_set": "23c1743f30aefb08aaf088cdb78567a6c9d1135229a32250f77414089099183e",
+          "shifted_osf_set": "d36bee4867b865365c77f0cffbbb3b15f88b7bea38f6df52aa6710bd4e187f0f",
+          "bids_events_recorded": "80723e4ae911291abb0fc6220eddff25d7cad0393fcbcf08b96cd69774d17515",
+          "osf_pair_manifest_recorded": "2cb5baf4a2d5364eec9842f8e252065f80e17d3b50a0da5b87d22f332bd36135"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-020",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "20",
+        "sha256": {
+          "original_osf_set": "87fbcbdb619e1a2cd46a0ddb2b10f675ed6c30967caee2a86dac0e09f0bdc750",
+          "shifted_osf_set": "a90a61cbc44f05d960c47d669455a6aa7ec27ba03bfe82db6d0e65273f69a211",
+          "bids_events_recorded": "c64a5370e941dfcc991b645dbcf532ea8a80953eeb62ee8705551a1a7a843a30",
+          "osf_pair_manifest_recorded": "286a4e4863d1bd1f3bb46eaed3ff84096a618508ecf1e601306e2edb5f3ba516"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-021",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "21",
+        "sha256": {
+          "original_osf_set": "e2f1bd1dce596f2b39a140c84fe1ad59e7dc5ba76d57b39fd78a6569432e2740",
+          "shifted_osf_set": "576f42721bc483dd6ca3e3c65378467d698e7902f9814fcde36d21493214f71c",
+          "bids_events_recorded": "5b93469457d15abf24fb9c684a91fd357b4e910a816e9303a6df185aeee22134",
+          "osf_pair_manifest_recorded": "79d189d739081105578e0da4053a51a8a901c75375e6f947fd4312be62faf963"
+        },
+        "events": 643,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 323,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-022",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "22",
+        "sha256": {
+          "original_osf_set": "baa0e3f1364a67266e5d31d11a22a1da3c35054be69c77634ddbd4d8453ae55b",
+          "shifted_osf_set": "db9fc12070e51844dde0f788cd0a50636e10ca489a1fbf59e4a8552b7bfbdf1c",
+          "bids_events_recorded": "44b9a639a50f22a7fa8d4d0a073ae704c3b22eeb01a13cf6bd3cf03ed9fd1c96",
+          "osf_pair_manifest_recorded": "20f0b51a3e9783ecda0e85024116b6362c206c8f7c84c6b2eaf0e55029883e48"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-023",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "23",
+        "sha256": {
+          "original_osf_set": "dc0716b4d84ab42590eead5648628e96dc68edb01b15b190decdd9a95a649963",
+          "shifted_osf_set": "60589a7f4654327700b3ccc7184f3df14c785284b5c4db72d115e391d1f1531b",
+          "bids_events_recorded": "353bafdd05c68938540406e3e9d82949e9fa7a7c30ee51e839d5e075932740b2",
+          "osf_pair_manifest_recorded": "a698dcf548cd0a3c3b5e587cb88c04788db97a2883399e3a894df9d5749a4715"
+        },
+        "events": 641,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 321,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-024",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "24",
+        "sha256": {
+          "original_osf_set": "17219905026929b2fef24cde9f17789fa900125e7c93539eb80965173c64627e",
+          "shifted_osf_set": "66f7f9c8db5831bc2b4ce03225e792b8b33186918b032e3db3db6a252ecec68a",
+          "bids_events_recorded": "c26b8feee2d61299873d7e762de0073b2d778ee56db15e57479ac85fcef67035",
+          "osf_pair_manifest_recorded": "a1dc90c186574e0fb1dc3206f2603dbce65b26b550715c1bd6906184b7a41a7d"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-025",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "25",
+        "sha256": {
+          "original_osf_set": "25f687a00fef1e0faec3356bf8b78f23f4673c202577728219a6e150407d48b0",
+          "shifted_osf_set": "20f462965f800022fda9c8b000e589ec254f183bf3fe6bd48bb02c419577272e",
+          "bids_events_recorded": "f7206ebcb24f25241e130bdca7aa6e6b991f6514d104e6bcfb0c878064e73d23",
+          "osf_pair_manifest_recorded": "c57c075b09dc320e96babc0043631e637eabddb22e51cd262427cfbd415b92c4"
+        },
+        "events": 643,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 323,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-026",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "26",
+        "sha256": {
+          "original_osf_set": "23230b102fb02a0110ea1b52174fe5fb3b2d7b5ce514082a0d6558d83cd38ad9",
+          "shifted_osf_set": "2114a9592dae1bc5f2174b935f7a48ed6b97713b6498be4785952b84f49864a3",
+          "bids_events_recorded": "e2028b3abafebaa9332a3293c7020992f26887ae551dd4e7b82d5570d726d50d",
+          "osf_pair_manifest_recorded": "846dfec04a1ec9136386d303ee4bef2878e7f62df0233262711455a6cde57056"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-027",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "27",
+        "sha256": {
+          "original_osf_set": "e5a24a264ff222c3043cd5bc6c00660b43ebb8fc15d7efba65f320546f09ac37",
+          "shifted_osf_set": "19195f9fcfa1de7cf468a4949684d90346fdf48dd09cc00d0bbc46a17effa6cb",
+          "bids_events_recorded": "8ec074c26b966b52529f304b4ac4335085f3563ba5b6c841db67da9c4fd02efd",
+          "osf_pair_manifest_recorded": "f86846d48533b01dca68723e65dbe657c4f0ad1d97d4fb78c08e56f3eb99acbb"
+        },
+        "events": 641,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 321,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-028",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "28",
+        "sha256": {
+          "original_osf_set": "3f329bcd6288be13b4c58c138a765bf520ee8d30413930666bfe8b264c834aff",
+          "shifted_osf_set": "e178d4fa9ae15328e33545ace762675418ba15c1462fa6cd4c9c00ba7d13a752",
+          "bids_events_recorded": "eabf1af262fc1bd4f71ab124289cad06c0a70cbe55de43646477ede27f7397d4",
+          "osf_pair_manifest_recorded": "b11feaa80370f76f6237094e8ea14d30206c5478e3217edf84544dfe4936fce0"
+        },
+        "events": 639,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 319,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-029",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "29",
+        "sha256": {
+          "original_osf_set": "f26bb8d305adc8e16699b87083654caf1676a10fb034dfadc7863eb296c0042c",
+          "shifted_osf_set": "619e6dd96d797afd25279a1069a357a58cda135b7ca2cac2150d8792fbd4009c",
+          "bids_events_recorded": "1ec78614de91bd12585635a6d1d387156b30e7bb22aaf780c585a376b2942cbc",
+          "osf_pair_manifest_recorded": "253d7563791e299601487b320deffd5b8046337af61578dbd886d836e1ace1ed"
+        },
+        "events": 640,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 320,
+        "blinded_anomaly_documented": true,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-030",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "30",
+        "sha256": {
+          "original_osf_set": "140f8af3b7b6ed66fd1cee07f08b2eaa7d92243b896e4e2e7d65d463f57b488b",
+          "shifted_osf_set": "c29ac5b59d5e9df507f2d9d48ea22d0ff5a9a7a23cf1f154a961a15f62fd8a78",
+          "bids_events_recorded": "30b875f49af6749e24419b7ae985c14e9d32ee719e2c3701e99e0322ca99f473",
+          "osf_pair_manifest_recorded": "7d0a5903cc3aab963a9090fc4c65f4a7cf6495868e0f54b19b4cd1ec7335e1ce"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-031",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "31",
+        "sha256": {
+          "original_osf_set": "995e02608cd7771c1d170f67b8908e4d8f122c4f8fc8f7703db28f08c9bb8001",
+          "shifted_osf_set": "9d099a8f242bbd0c3d1a81b51426020d4bed720d7abf0c8f1407d5d5697690ec",
+          "bids_events_recorded": "88ebb45ffa4e23d2aade78ff8a9f465e638c612322e657ee05b02f7b0770e76d",
+          "osf_pair_manifest_recorded": "979ca2a4a23f92276a5a5cf2c4d6b68d0099b96bc7e21abfb727bd15be60944c"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-032",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "32",
+        "sha256": {
+          "original_osf_set": "531e86996ddf1cb92d891df1b731731ab1ac714bb499b3a76fdd37422be8e005",
+          "shifted_osf_set": "1bdc8523d05e2100f718955c0efee8dfaecf141203fe7bc69164fafa82fa3d3f",
+          "bids_events_recorded": "35c351767200640dc65789754a8185bc801ac46e1aa62ba7baf4c18687d25175",
+          "osf_pair_manifest_recorded": "afe54c39ccf4220d6d557671ffeb1885269ea0e37f83660dab3e3372c3989a2b"
+        },
+        "events": 639,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 319,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-033",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "33",
+        "sha256": {
+          "original_osf_set": "d90fc7c8e2b3e79906d8f186715013d0f7a97c27941d012ac45a5222772bf9bb",
+          "shifted_osf_set": "0567de15e0234151d49e33fb57bd3acc8c228222c2de041e257adb16ed68d3d8",
+          "bids_events_recorded": "fcf6104797fd178cdc6358d0c9361b0e3f1a3fbe405ea73420b8a1a373e2d372",
+          "osf_pair_manifest_recorded": "117e9c3eff708cfc0fff8480dac4ecded11ad625104e787eb0879f508592597c"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-034",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "34",
+        "sha256": {
+          "original_osf_set": "e1bdd86a37e28ea2c64d99f540db4e786efb67a8c761332039ca33727ed7e0a6",
+          "shifted_osf_set": "f10096e0e7cc9c1a9c82255379ad7b4a01b9367d682112a45e022bf1a5ddfae6",
+          "bids_events_recorded": "251eb1555ddeab426ca8dc1bb2e5af2957186caaf805d22f56f595e44e312d79",
+          "osf_pair_manifest_recorded": "d9c891dab5e6ca1a0180d1ecee4bde73c6d33e1fd8b0f6a2ca8a20d2d9c8b801"
+        },
+        "events": 641,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 321,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-035",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "35",
+        "sha256": {
+          "original_osf_set": "54252f1e0d2d8d6d49651fc826851fe19755843ef8a5f805f9d779325f440a88",
+          "shifted_osf_set": "cab73c98638b12a4b1b95d329304f27abe48feb4efb0613ff166d19108887c2f",
+          "bids_events_recorded": "2b57ee31118e508c06d6de0e2828fee65bb919458a583fbbf45b07e98c63b841",
+          "osf_pair_manifest_recorded": "f549f04636b404593e8aa41c34f5f91e18bda33a9a39c2912e3fc5a138e477a5"
+        },
+        "events": 637,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 317,
+        "blinded_anomaly_documented": true,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-036",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "36",
+        "sha256": {
+          "original_osf_set": "c1b7152c4b870c0c54238eb1e5a9c2660a6efcb0a440a778e6361716d1c815b2",
+          "shifted_osf_set": "30571ec6b870a36f961f1cbae5ff77bec0e9629dd18daf461b7208809c0117f7",
+          "bids_events_recorded": "a5c6e031d8a111f56bee7d3c33acc89fb70e5d64fe3ba80df026e6b304fb0343",
+          "osf_pair_manifest_recorded": "7ccea516ae87a1009384fad72feb84889bc53c78d2917f1804bb54045702359a"
+        },
+        "events": 637,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 317,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-037",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "37",
+        "sha256": {
+          "original_osf_set": "150f8834324c3ed6627b4c5e5da3957a4ca0cb0b647251e4cd2a74cd28a36bd6",
+          "shifted_osf_set": "327bf00724fb381b8e88efba582db18189fc9e234621f1c4d074c2d0803ac2b8",
+          "bids_events_recorded": "ae3f4abac87fa308153514c85b739fedfb457f6fdd173dc12e6e6d51710a83c0",
+          "osf_pair_manifest_recorded": "b84e62f32c5dc13a6a3b6806072355f64aa18c3c61a9eae04197d8fa061a21e5"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-038",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "38",
+        "sha256": {
+          "original_osf_set": "48901ea219adea3bb6ee0e06227afe239187cf5f68c6c1b672e49352f62ebcc7",
+          "shifted_osf_set": "d9f42ffee2209b2583efed7600fdace97e8def475a32abe8a8ffd274d774248e",
+          "bids_events_recorded": "c22b25ee1e60c4cb32ef7c5c40e29385271748f37a9634ef265e64a9de7d39fb",
+          "osf_pair_manifest_recorded": "76e3eeca511eda0d826a213dd2c603fcaa79849eb798072d91fba9eeeb133e00"
+        },
+        "events": 640,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 320,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-039",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "39",
+        "sha256": {
+          "original_osf_set": "0870ebff8ba04689b88cf9400bb5b7cf13f64215606c305f99166a4cda716e44",
+          "shifted_osf_set": "a1a141f7e925238532a239f82646f9da6c1bfea2ab0401bd50ad9aba514c36d6",
+          "bids_events_recorded": "ec7f5536df7c3b65da726ce9923a9ba0afa2d9ddd0fa9059a3c24ce1d9e58bf6",
+          "osf_pair_manifest_recorded": "c9cec70443ee407e556cf362069d2d8a6950907dc7401e0758674f0bd6ba559f"
+        },
+        "events": 642,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 322,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      },
+      {
+        "subject_id": "sub-040",
+        "decision": "INCLUDED_BY_FROZEN_DOCUMENTARY_RULES",
+        "eligibility_basis": "E01_E08_DOCUMENTED",
+        "osf_subject_folder": "40",
+        "sha256": {
+          "original_osf_set": "7f2f4a3423b3e7dc27f6795fe5a6e5b019b6a6de7c6c8bc0bbfad9da3a000d2e",
+          "shifted_osf_set": "08a6cd8d464383d5c704df7ae89ed4478059b2c8710e328196a655b66d1424a1",
+          "bids_events_recorded": "00e57fb0e5293656bd2f08caf362c7e697540613eeb4746bc33cc9f82672a092",
+          "osf_pair_manifest_recorded": "c50d5db4d511a0984d0bd960c89c259db83f8b47bb70173e60538afd87433e56"
+        },
+        "events": 640,
+        "stimuli_shifted_26_samples": 320,
+        "responses_shifted_0_samples": 320,
+        "blinded_anomaly_documented": false,
+        "artifact_exclusion_applied": false,
+        "n170_outcomes_used_for_selection": false
+      }
+    ]
+  },
+  "predefined_limitations": {
+    "physical_stimulus_onset_verified": false,
+    "cross_source_osf_bids_signal_identity_verified": false,
+    "physiological_artifact_free_claimed": false,
+    "known_blinded_anomaly_cases": [
+      "sub-029",
+      "sub-035"
+    ],
+    "new_exclusion_thresholds_applied": false
+  },
+  "source_evidence": {
+    "P3_matrix_sha256": "a4c3c07fecb03a8ad37acca630f654eddfc3c7d2a7bc560b08ccf5dd76bb8f8d",
+    "P3_report_sha256": "3bf101e526dd4846c86a23bd54ca4a244504d894c88761ece9c607f259635406",
+    "P3_manifest_sha256": "f156a03314694acd0d2ab0ee50904fe6eb2e26ec235dfe560dfb87de857d39b5",
+    "P4_R1_matrix_sha256": "47ea1eaeb5b2e86f5d218674b94ed9913bba6d74b3b932c16bf54929fc318be6",
+    "P4_R1_report_sha256": "7a4b08a250ee0d5c76a34dd7d92af06224a59642817024631d78dc0c7f2c8bbd",
+    "P4_R1_manifest_sha256": "8dda515d077f2b160799ec437f15b0221c1805b465fab0f0c46dfba590587d8b",
+    "upstream_provenance": {
+      "P3_matrix_sha256": "a4c3c07fecb03a8ad37acca630f654eddfc3c7d2a7bc560b08ccf5dd76bb8f8d",
+      "P3_report_sha256": "3bf101e526dd4846c86a23bd54ca4a244504d894c88761ece9c607f259635406",
+      "P3_manifest_sha256": "f156a03314694acd0d2ab0ee50904fe6eb2e26ec235dfe560dfb87de857d39b5",
+      "P4_provenance_sha256": "1b6afa37ba28104723d59edbfce47571a68b22f1ce910f85d82edf040466ac42",
+      "P4_manifest_sha256": "ca3919c3ee270dd4eab4cddb5c4c393ae6857b7dd044974427f3cc16f41a46e6",
+      "Stage1C_inventory_sha256": "1d8203813029ea27b4b180478bb76761f81937d6c49c4c1233597036d91ae5f4"
+    }
+  },
+  "license": {
+    "dataset": "ERP CORE",
+    "documented_license": "CC BY 4.0",
+    "source_zip_license_discrepancy_preserved": true
+  },
+  "n170_extended_outcomes_examined_by_this_stage": false
+}
