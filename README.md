@@ -1,6 +1,6 @@
 # BDNEP-TIMEWISE â€” Reproducible ERP event-marker provenance analysis
 
-Version **1.0.1**. Software author: **Jesus Rafael Hechavarria-Hernandez** (ORCID 0000-0002-9013-8665).
+Version **1.0.0**. Software author: **Jesus Rafael Hechavarria-Hernandez** (ORCID 0000-0002-9013-8665).
 Software DOI (reserved until Zenodo publication): **10.5281/zenodo.23567028**.
 
 ## Overview
