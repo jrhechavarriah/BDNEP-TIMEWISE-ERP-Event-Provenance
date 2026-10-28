@@ -1,4 +1,4 @@
-# BDNEP-TIMEWISE â€” Copyright and licensing scope
+# BDNEP-TIMEWISE — Copyright and licensing scope
 
 Copyright (C) 2026 Jesus Rafael Hechavarria-Hernandez.
 

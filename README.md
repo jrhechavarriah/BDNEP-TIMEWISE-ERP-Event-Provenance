@@ -1,10 +1,10 @@
-# BDNEP-TIMEWISE â€” Reproducible ERP event-marker provenance analysis
+# BDNEP-TIMEWISE — Reproducible ERP event-marker provenance analysis
 
 Version **1.0.0**. Software author: **Jesus Rafael Hechavarria-Hernandez** (ORCID 0000-0002-9013-8665).
 Software DOI (reserved until Zenodo publication): **10.5281/zenodo.23567028**.
 
 ## Overview
-Independent replay of ERP CORE N170 data, combining the NEMAR nm000132 v1.1.1 continuous EEG with OSF original and author-corrected event labels. The documented digital-marker difference is +26 samples for stimuli at 1024 Hz; physical screen onset was **not** calibrated. The primary contrast is PO8 face-minus-car amplitude in the prespecified 110â€“150 ms window, Arm A. Arm B and PO7 results are descriptive. No artifact rejection, ICA or bad-channel interpolation.
+Independent replay of ERP CORE N170 data, combining the NEMAR nm000132 v1.1.1 continuous EEG with OSF original and author-corrected event labels. The documented digital-marker difference is +26 samples for stimuli at 1024 Hz; physical screen onset was **not** calibrated. The primary contrast is PO8 face-minus-car amplitude in the prespecified 110–150 ms window, Arm A. Arm B and PO7 results are descriptive. No artifact rejection, ICA or bad-channel interpolation.
 
 ## Data and rights
 EEG and OSF event-source bytes are **NOT** redistributed in this repository. Download them from their originating NEMAR and ERP CORE/OSF sources, subject to source-specific licenses and required attribution. Original BDNEP-TIMEWISE Python software is licensed under GPL-3.0-only as specified in LICENSE. This license does not apply to upstream datasets, event-source files, or independently licensed dependencies. Third-party libraries retain their own licenses.
